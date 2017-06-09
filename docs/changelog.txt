@@ -1,0 +1,35 @@
+06/08/17
+- Added docs/changelog.txt
+- Moved image files to a different web host.
+
+06/07/17
+- Updated README.md
+- Compressed image files.
+- Added template.html
+
+06/06/17
+- Added README.md
+- Uploaded website and all files related to GitHub
+
+06/05/17
+- Updated Navigation Bar
+- Split navigation, header, and footer to different files
+- Updated CSS for all pages
+- Added tools_scripts.html
+- Added tools_discord.html
+- Added projects_server.html
+- Added projects_employee.html
+- Added projects_bayes.html
+- Added graphics_gallery.html
+- Added graphics_pathfinder.html
+- Added calculators_bandwidth.html
+
+06/04/17
+- Worked on CSS and layouts
+
+06/03/17
+- Added tools.html
+- Added projects.html
+- Added graphics.html
+- Added calculators.html
+- Added index.html
