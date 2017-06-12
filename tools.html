@@ -2,42 +2,53 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="iso-8859-1">
-        <link rel="stylesheet" href="css/layout.css" type="text/css">
         <script src="scripts/w3.js"></script>
-        <style>body {background: #ffffff url("https://dmctruong.000webhostapp.com/images/tools_background.png") no-repeat fixed right top; background-size: 100%;}</style>
-        <!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->	
-    </head>
+    <div w3-include-html="stylesheets.html"></div>
+</head>
 
-    <body>
+<body>
+    <div class="shadow_background">
         <!-- Navigation and Header -->
         <div w3-include-html="navigation.html"></div> 
 
         <!-- content -->
         <div class="wrapper row2">
-            <h1>Tools and Helpers</h1>
-            <div id="container">
-                <!-- content body -->
-                <!-- One Third -->
-                <section class="clear">
-                    <div class="one_third lastbox">
-                        <h2>Discord Bot</h2>
-                        <p>A chat bot for the chat and voice application, Discord.</p>
-                    </div>
-                </section>
-                <!-- / One Third -->
-                <!-- Two Third -->
-                <section class="clear">
-                    <div class="two_third">
-                        <h2>Git Bash Scripts</h2>
-                        <p>Some scripts created for Git Bash to make the work flow more efficient.</p>
-                    </div>
-                </section>
-            </div>
+            <h4 class="spacing" align="center">Tools and Helpers</h4>
+            <section id="latest" class="last">
+                <ul>
+                    <li>
+                        <article class="clear">
+                            <figure><img src="https://dmctruong.000webhostapp.com/images/index_calculators.png" alt="">
+                                <figcaption>
+                                    <h3>Discord Bot</h3>
+                                    <p>A chat bot for the chat and voice application, Discord.</p>
+                                    <footer class="more"><a href="calculators.html">Read More &raquo;</a></footer>
+                                </figcaption>
+                            </figure>
+                        </article>                               
+                    </li>
+
+                    <li>
+                        <!-- Class Projects Category -->
+                        <article class="clear">
+                            <figure><img src="https://dmctruong.000webhostapp.com/images/index_projects.png" alt="">
+                                <figcaption>
+                                    <h3>Git Bash Scripts</h3>
+                                    <p>Some scripts created for Git Bash to make the work flow more efficient.</p>
+                                    <footer class="more"><a href="projects.html">Read More &raquo;</a></footer>
+                                </figcaption>
+                            </figure>
+                        </article>                               
+                    </li>
+                </ul>
+            </section>
         </div>
         <!-- Footer -->
         <div w3-include-html="footer.html"></div> 
         <script>
             w3.includeHTML();
         </script>
-    </body>
+    </div>
+
+</body>
 </html>

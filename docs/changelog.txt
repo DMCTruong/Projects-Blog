@@ -1,3 +1,14 @@
+06/11/17
+- Created Projects-Blog-V1 Branch as backup
+- Replaced half of the placeholder images
+- Finished redoing the layouts for the whole website
+
+06/10/17
+- Continued to redo the layout for the rest of the site.
+
+06/09/17
+- Reworked some of the layout and removed background images
+
 06/08/17
 - Added docs/changelog.txt
 - Moved image files to a different web host.

@@ -2,34 +2,33 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="iso-8859-1">
-        <link rel="stylesheet" href="css/layout.css" type="text/css">
         <script src="scripts/w3.js"></script>
-        <style>body {background: #ffffff url("https://dmctruong.000webhostapp.com/images/graphics_background.png") no-repeat fixed right top; background-size: 100%;}</style>
-        <!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->	
-    </head>
+    <div w3-include-html="stylesheets.html"></div>
+</head>
 
-    <body>
+<body>
+    <div class="shadow_background">
         <!-- Navigation and Header -->
         <div w3-include-html="navigation.html"></div> 
 
         <div class="wrapper row2">
-            <h1>Computer Graphics Projects</h1>
+            <h4 class="spacing" align="center">Computer Graphics Projects</h4>
 
             <div id="container" class="clear">
                 <div id="col1">
-                    <h2>Project PathFinder</h2>
-                    <img src="https://dmctruong.000webhostapp.com/images/graphics_pathfinder.png" style="border: #000000 1px solid; width: 200px; display: block; margin-left: auto; margin-right: auto;"/>
-                    <p>Displays 3D Models in browser.</p>
+                    <h3 class="spacing2" align="center">Project PathFinder</h3>
+                    <img class="circle_image"src="https://dmctruong.000webhostapp.com/images/graphics_pathfinder.png" style="border: #000000 1px solid; width: 200px; display: block; margin-left: auto; margin-right: auto;"/>
+                    <p class="spacing2">Displays 3D Models in browser.</p>
                 </div>
                 <div id="col2">
-                    <h2>Gallery</h2>
-                    <img src="https://dmctruong.000webhostapp.com/images/graphics_gallery.png" style="border: #000000 1px solid; width: 200px; display: block; margin-left: auto; margin-right: auto;"/>
-                    <p>Displays art in browser.</p>
+                    <h3 class="spacing2" align="center">Gallery</h3>
+                    <img class="circle_image" src="https://dmctruong.000webhostapp.com/images/graphics_gallery.png" style="border: #000000 1px solid; width: 200px; display: block; margin-left: auto; margin-right: auto;"/>
+                    <p class="spacing2">Displays art in browser.</p>
                 </div>
                 <div id="col3">
-                    <h2>Something here</h2>
-                    <img src="https://dmctruong.000webhostapp.com/images/graphics_dunno.png" style="border: #000000 1px solid; width: 200px; display: block; margin-left: auto; margin-right: auto;"/>
-                    <p>I am not sure yet what to add yet.</p>
+                    <h3 class="spacing2" align="center">Something here</h3>
+                    <img class="circle_image" src="https://dmctruong.000webhostapp.com/images/graphics_dunno.png" style="border: #000000 1px solid; width: 200px; display: block; margin-left: auto; margin-right: auto;"/>
+                    <p class="spacing2">I am not sure yet what to add yet.</p>
                 </div>
             </div>
         </div>
@@ -38,5 +37,6 @@
         <script>
             w3.includeHTML();
         </script>
-    </body>
+    </div>
+</body>
 </html>

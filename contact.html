@@ -2,23 +2,23 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="iso-8859-1">
-        <link rel="stylesheet" href="css/layout.css" type="text/css">
         <script src="scripts/w3.js"></script>
-        <style>body {background: #ffffff url("https://dmctruong.000webhostapp.com/images/contact_background.png") no-repeat fixed right top; background-size: 100%;}</style>
-        <!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->	
+		<div w3-include-html="stylesheets.html"></div>
     </head>
 
     <body>
-        <!-- Navigation and Header -->
-        <div w3-include-html="navigation.html"></div> 
-		<div class="wrapper row2">
-        <h1>Contact</h1>
-		<p><img src="https://dmctruong.000webhostapp.com/images/icons/warning.png">This page is still a work on progress, please come back again later.</p>
-		</div>
-        <!-- Footer -->
-        <div w3-include-html="footer.html"></div> 
-        <script>
-            w3.includeHTML();
-        </script>
+        <div class="shadow_background">
+            <!-- Navigation and Header -->
+            <div w3-include-html="navigation.html"></div> 
+            <div class="wrapper">
+                <h1>Hello,</h1>
+                <p>This page is still a work on progress, please come back later.</p>
+            </div>
+            <!-- Footer -->
+            <div w3-include-html="footer.html"></div> 
+            <script>
+                w3.includeHTML();
+            </script>
+        </div>
     </body>
 </html>
