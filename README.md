@@ -7,7 +7,7 @@ The Blog of Miscellaneous Projects is a website or blog that showcases some of t
 # June 13, 2017
 
 The website had received a complete rework and upgraded to Version 2. 
-The Projects-Blog-V1 branch serves as a version archive and progress tracker as the website continues to evolve. 
+The Projects-Blog-V1 branch serves as a version archive and progress tracker as the website evolves. 
 
 The table below lists the changes in Version 1 and Version 2 of the website:
 
@@ -18,7 +18,11 @@ The table below lists the changes in Version 1 and Version 2 of the website:
 | Bold fonts styles	         | Replaced old fonts with more different font styles  |
 | Minimal content            | Increased amount of contents                        |
 
-![The index page of the projects website](https://github.com/DMCTruong/Projects-Blog/tree/Projects-Blog-V1/images/indexV1.png)
+Below is the index page of the Projects Blog Version 1 Website
+
+![The index page of Projects Blog Version 1](/images/indexV1.png?raw=true)
+
+As the website continues to grow, more version branches will be created to learn and record the website's growth over time.  
 
 
 
