@@ -1,44 +1,49 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
-        <meta charset="iso-8859-1">
         <script src="scripts/w3.js"></script>
+        <script src="scripts/animations.js"></script>
     <div w3-include-html="stylesheets.html"></div>
 </head>
 
-<body> 
-    <div class="shadow_background">
-        <!-- Navigation and Header -->
-        <div w3-include-html="navigation.html"></div>
-        <!-- End of Navigation and Header -->
+<body onload="loadIn()" style="margin:0;">
+    <div id="page_loader"></div>
+    <div style="display:none;" id="hideDiv">
+        <div class="shadow_background">
+            <!-- Navigation and Header -->
+            <div w3-include-html="navigation.html"></div>
+            <!-- End of Navigation and Header -->
 
-        <!-- Content -->
-        <div class="wrapper">      
-            <!-- About me -->
-            <div id="about">
-                <h3 class="center spacing">About me</h3>
-                <p class="center">Hello there! Welcome to my web site. The web site showcases some of my projects that I have created and shared on GitHub.</p>
-                <p align="justify">
-                    As for me, I am an undergraduate Computer Science student. I hope to be able to become a developer one day. The language that I mainly use is 
-                    Java though I am also experimenting working with other languages such as Python and JavaScript. I mostly work with Java applications that emphasized more
-                    towards the backend of development. Right now, I am working on my web-developing skills. I feel that being able to effectively present one's work is as important 
-                    as developing it. What good is spending hours developing an application if one does not share it? So I hope that you have a fun experience browsing 
-                    through the web site and checking out some of the projects that I have been working on!
-                </p>
+
+            <!-- Content -->
+            <div class="wrapper">      
+                <!-- About me -->
+                <div id="about">
+                    <h3 class="center spacing">About me</h3>
+                    <p class="center">Hello there! Welcome to my web site. The web site showcases some of my projects that I have created and shared on GitHub.</p>
+                    <p align="justify">
+                        As for me, I am an undergraduate Computer Science student. I hope to be able to become a developer one day. The language that I mainly use is 
+                        Java though I am also experimenting working with other languages such as Python and JavaScript. I mostly work with Java applications that emphasized more
+                        towards the backend of development. Right now, I am working on my web-developing skills. I feel that being able to effectively present one's work is as important 
+                        as developing it. What good is spending hours developing an application if one does not share it? So I hope that you have a fun experience browsing 
+                        through the web site and checking out some of the projects that I have been working on!
+                    </p>
+                </div>
+                <!-- Contact -->
+                <div id="contact" class="center">
+                    <h3>Contact</h3>
+                    <p>If you have any questions, feel free to contact me via email.</p>
+                    <p>Email: diane.m.truong@gmail.com</p>
+                </div>
             </div>
-            <!-- Contact -->
-            <div id="contact" class="center">
-                <h3>Contact</h3>
-                <p>If you have any questions, feel free to contact me via email.</p>
-                <p>Email: diane.m.truong@gmail.com</p>
-            </div>
+            <!-- End of Content -->
+
+
+            <!--  Footer -->
+            <div w3-include-html="footer.html"></div> 
+            <script>w3.includeHTML();</script>
+            <!-- End of Footer -->
         </div>
-        <!-- End of Content -->
-
-        <!-- Footer -->
-        <div w3-include-html="footer.html"></div> 
-        <script>w3.includeHTML();</script>
-        <!-- End of Footer -->
     </div>
 </body>
 </html>

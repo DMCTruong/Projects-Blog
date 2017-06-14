@@ -2,23 +2,31 @@
 <html lang="en" dir="ltr">
     <head>
         <script src="scripts/w3.js"></script>
-        <div w3-include-html="stylesheets.html"></div>
-    </head>
+        <script src="scripts/animations.js"></script>
+    <div w3-include-html="stylesheets.html"></div>
+</head>
 
-    <body>
+<body onload="loadIn()" style="margin:0;">
+    <div id="page_loader"></div>
+    <div style="display:none;" id="hideDiv">
         <div class="shadow_background">
             <!-- Navigation and Header -->
-            <div w3-include-html="navigation.html"></div> 
+            <div w3-include-html="navigation.html"></div>
+            <!-- End of Navigation and Header -->
 
-
+            
+            <!-- Content -->
             <div class="wrapper row2">
                 <!-- ADD CONTENT HERE -->
             </div>
+            <!-- End of Content -->
 
 
             <!--  Footer -->
             <div w3-include-html="footer.html"></div> 
             <script>w3.includeHTML();</script>
+            <!-- End of Footer -->
         </div>
-    </body>
+    </div>
+</body>
 </html>

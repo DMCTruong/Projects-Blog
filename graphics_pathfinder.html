@@ -1,44 +1,49 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
-        <meta charset="iso-8859-1">
         <script src="scripts/w3.js"></script>
+        <script src="scripts/animations.js"></script>
         <script type='text/javascript' src='https://www.x3dom.org/download/x3dom.js'></script>
     <div w3-include-html="stylesheets.html"></div>
 </head>
 
-<body>
-    <div class="shadow_background" align="center">
-        <!-- Navigation and Header -->
-        <div w3-include-html="navigation.html"></div> 
-        <!-- End of Navigation and Header -->
+<body onload="loadIn()" style="margin:0;">
+    <div id="page_loader"></div>
+    <div style="display:none;" id="hideDiv">
+        <div class="shadow_background">
+            <!-- Navigation and Header -->
+            <div w3-include-html="navigation.html"></div>
+            <!-- End of Navigation and Header -->
 
-        <!-- Content -->
-        <div class="wrapper row2">
-            <!-- Warning -->
-            <div class="warning">
-                <p align="center">Notice! This website is still under construction so some pages may be incomplete.</p> 
-            </div>
 
-            <!-- Project -->
-            <h4 class="spacing" align="center">Project Pathfinder</h4>
-            <p class="center">The goal of Project Pathfinder is to display 3D models or scenery in the browser. The user may interact with the objects and move around in the scenery. The project is still being created so a lot of the content in this page are still in testing.</p>
-            <p class="center">Below is a simple example of what the user may be able to interact with in the browser. Grab the cube and move it around!</p>
-            <div style="height: 430px;">
-                <x3d width='950px' height='400px' margin:0 auto;'>
-                     <scene>
-                        <viewpoint position="-1.94639 1.79771 -2.89271" orientation="0.03886 0.99185 0.12133 3.75685"></viewpoint>
-                        <Inline nameSpaceName="Cube" mapDEFToID="true" url="models/model.x3d" />
-                    </scene>
-                </x3d>
+            <!-- Content -->
+            <div class="wrapper row2">
+                <!-- Warning -->
+                <div class="warning">
+                    <p align="center">Notice! This website is still under construction so some pages may be incomplete.</p> 
+                </div>
+
+                <!-- Project -->
+                <h4 class="spacing" align="center">Project Pathfinder</h4>
+                <p class="center">The goal of Project Pathfinder is to display 3D models or scenery in the browser. The user may interact with the objects and move around in the scenery. The project is still being created so a lot of the content in this page are still in testing.</p>
+                <p class="center">Below is a simple example of what the user may be able to interact with in the browser. Grab the cube and move it around!</p>
+                <div style="height: 430px;">
+                    <x3d width='950px' height='400px' margin:0 auto;'>
+                         <scene>
+                            <viewpoint position="-1.94639 1.79771 -2.89271" orientation="0.03886 0.99185 0.12133 3.75685"></viewpoint>
+                            <Inline nameSpaceName="Cube" mapDEFToID="true" url="models/model.x3d" />
+                        </scene>
+                    </x3d>
+                </div>
             </div>
+            <!-- End of Content -->
+
+
+            <!--  Footer -->
+            <div w3-include-html="footer.html"></div> 
+            <script>w3.includeHTML();</script>
+            <!-- End of Footer -->
         </div>
-        <!-- End of Content -->
-
-        <!-- Footer -->
-        <div w3-include-html="footer.html"></div> 
-        <script>w3.includeHTML();</script>
-        <!-- End of Footer -->
     </div>
 </body>
 </html>

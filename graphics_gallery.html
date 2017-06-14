@@ -1,24 +1,106 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
-        <meta charset="iso-8859-1">
         <script src="scripts/w3.js"></script>
+        <script src="scripts/animations.js"></script>
     <div w3-include-html="stylesheets.html"></div>
 </head>
 
-<body>
-    <div class="shadow_background" align="center">
-        <!-- Navigation and Header -->
-        <div w3-include-html="navigation.html"></div> 
-        <div class="wrapper row2">
-            <h4 class="spacing" align="center">Project Gallery</h4>
-            <p><img src="https://dmctruong.000webhostapp.com/images/icons/warning.png">This page is still a work on progress, please come back again later.</p>
+<body onload="loadIn()" style="margin:0;">
+    <div id="page_loader"></div>
+    <div style="display:none;" id="hideDiv">
+        <div class="shadow_background">
+            <!-- Navigation and Header -->
+            <div w3-include-html="navigation.html"></div>
+            <!-- End of Navigation and Header -->
+
+
+            <!-- Content -->
+            <div class="wrapper" style="height: 1650px;">
+                <h4 class="spacing" align="center">Art Gallery</h4>
+
+                <!-- Image Rows -->
+                <div id="container">
+                    <div id="gallery_col">
+                        <img src="images/gallery/1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                        <img src="images/gallery/4.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                        <img src="images/gallery/7.png" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+                        <img src="images/gallery/10.png" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+                    </div>
+                    <div id="gallery_col">
+                        <img src="images/gallery/2.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                        <img src="images/gallery/5.png" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+                        <img src="images/gallery/8.png" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+                        <img src="images/gallery/11.png" style="width:100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+                    </div>
+                    <div id="gallery_col">
+                        <img src="images/gallery/3.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                        <img src="images/gallery/6.png" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+                        <img src="images/gallery/9.png" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+                        <img src="images/gallery/12.png" style="width:100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+                        <img src="images/gallery/13.png" style="width:100%" onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
+                    </div>                   
+                </div>
+                <!-- End of Image Rows -->
+
+                <!-- Modal -->
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                        <!-- Slide show-->
+                        <div class="mySlides" align="center"><div class="numbertext">1 / 13</div><img src="images/gallery/1.png" style="width:50%"></div>
+                        <div class="mySlides" align="center"><div class="numbertext">2 / 13</div><img src="images/gallery/2.png" style="width:50%"></div>
+                        <div class="mySlides" align="center"><div class="numbertext">3 / 13</div><img src="images/gallery/3.png" style="width:50%"></div>
+                        <div class="mySlides" align="center"><div class="numbertext">4 / 13</div><img src="images/gallery/4.png" style="width:50%"></div>
+                        <div class="mySlides" align="center"><div class="numbertext">5 / 13</div><img src="images/gallery/5.png" style="width:50%"></div>
+                        <div class="mySlides" align="center"><div class="numbertext">6 / 13</div><img src="images/gallery/6.png" style="width:50%"></div>
+                        <div class="mySlides" align="center"><div class="numbertext">7 / 13</div><img src="images/gallery/7.png" style="width:50%"></div>
+                        <div class="mySlides" align="center"><div class="numbertext">8 / 13</div><img src="images/gallery/8.png" style="width:50%"></div>
+                        <div class="mySlides" align="center"><div class="numbertext">9 / 13</div><img src="images/gallery/9.png" style="width:50%"></div>
+                        <div class="mySlides" align="center"><div class="numbertext">10 / 13</div><img src="images/gallery/10.png" style="width:50%"></div>
+                        <div class="mySlides" align="center"><div class="numbertext">11 / 13</div><img src="images/gallery/11.png" style="width:50%"></div>
+                        <div class="mySlides" align="center"><div class="numbertext">12 / 13</div><img src="images/gallery/12.png" style="width:50%"></div>
+                        <div class="mySlides" align="center"><div class="numbertext">13 / 13</div><img src="images/gallery/13.png" style="width:50%"></div>
+                        <!-- End of Slide Show -->
+
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                        <div class="caption-container"><p id="caption"></p></div>
+                        <!-- Image Preview -->
+
+                        <div id="display_container">
+                            <div id="gallerydisplay_col">
+                                <img src="images/gallery/1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="demo cursor" onclick="currentSlide(1)" alt="Marketplace by DMCT">
+                                <img src="images/gallery/4.png" style="width:100%" onclick="openModal();currentSlide(4)" class="demo cursor" onclick="currentSlide(4)" alt="Bloom by DMCT">
+                                <img src="images/gallery/7.png" style="width:100%" onclick="openModal();currentSlide(7)" class="demo cursor" onclick="currentSlide(7)" alt="Vase by DMCT">
+                                <img src="images/gallery/10.png" style="width:100%" onclick="openModal();currentSlide(10)" class="demo cursor" onclick="currentSlide(10)" alt="Bloom by DMCT">
+                            </div>
+                            <div id="gallerydisplay_col">
+                                <img src="images/gallery/2.png" style="width:100%" onclick="openModal();currentSlide(2)" class="demo cursor" onclick="currentSlide(2)" alt="American Gothic: Grant Wood Parody by DMCT">
+                                <img src="images/gallery/5.png" style="width:100%" onclick="openModal();currentSlide(5)" class="demo cursor" onclick="currentSlide(5)" alt="Flying Free by DMCT">
+                                <img src="images/gallery/8.png" style="width:100%" onclick="openModal();currentSlide(8)" class="demo cursor" onclick="currentSlide(8)" alt="Yggdrasil by DMCT">
+                                <img src="images/gallery/11.png" style="width:100%" onclick="openModal();currentSlide(11)" class="demo cursor" onclick="currentSlide(11)" alt="The Vase Parody by DMCT">
+                            </div>
+                            <div id="gallerydisplay_col">
+                                <img src="images/gallery/3.png" style="width:100%" onclick="openModal();currentSlide(3)" class="demo cursor" onclick="currentSlide(3)" alt="Enchanted Forest by DMCT">
+                                <img src="images/gallery/6.png" style="width:100%" onclick="openModal();currentSlide(6)" class="demo cursor" onclick="currentSlide(6)" alt="Green Country by DMCT">
+                                <img src="images/gallery/9.png" style="width:100%" onclick="openModal();currentSlide(9)" class="demo cursor" onclick="currentSlide(9)" alt="Lotusanthymum by DMCT">
+                                <img src="images/gallery/12.png" style="width:100%" onclick="openModal();currentSlide(12)" class="demo cursor" onclick="currentSlide(12)" alt="The Bedroom at Arles: Van Gogh Parodyby DMCT">
+                                <img src="images/gallery/13.png" style="width:100%" onclick="openModal();currentSlide(13)" class="demo cursor" onclick="currentSlide(13)" alt="In Bloom by DMCT">
+                            </div>                   
+                        </div>
+                    </div>
+                </div> <!-- End of Modal -->
+            </div> <!-- End of Content -->
+
+
+            <!--  Footer -->
+            <div w3-include-html="footer.html"></div> 
+            <script>w3.includeHTML();</script>
+            <!-- End of Footer -->
         </div>
-        <!-- Footer -->
-        <div w3-include-html="footer.html"></div> 
-        <script>
-            w3.includeHTML();
-        </script>
     </div>
 </body>
 </html>

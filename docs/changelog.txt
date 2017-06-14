@@ -1,3 +1,8 @@
+06/14/17
+- Removed black border around the edge of the pages
+- Updated graphics_gallery.html
+- Added page loader to all pages. The page loader plays an animation until the page has finished loading then displays the page.
+
 06/13/17
 - Replaced the last of the placeholder images.
 - Added more content for the project pages and contact page.
