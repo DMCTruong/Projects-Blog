@@ -1,4 +1,6 @@
 06/14/17
+- Fixed issue with modal overflow in graphics_gallery.html
+- Fixed issue of images not showing up in graphics_gallery.html
 - Fixed alignment issues with CSS
 - Removed black border around the edge of the pages
 - Updated graphics_gallery.html
