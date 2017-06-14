@@ -1,3 +1,9 @@
+06/13/17
+- Replaced the last of the placeholder images.
+- Added more content for the project pages and contact page.
+- Pushed the final version of Projects Blog V1 to Projects-Blog-V1 branch
+- Changed image links in pages for Projects-Blog-V1 branch back to relative instead of absolute. This is to preserve the original images because the images stored in the external website had already been changed for Projects Blog V2.
+
 06/11/17
 - Created Projects-Blog-V1 Branch as backup
 - Replaced half of the placeholder images

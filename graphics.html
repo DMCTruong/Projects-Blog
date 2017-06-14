@@ -6,23 +6,32 @@
     <div w3-include-html="stylesheets.html"></div>
 </head>
 
+<!-- Content -->
 <body>
     <div class="shadow_background">
         <!-- Navigation and Header -->
-        <div w3-include-html="navigation.html"></div> 
+        <div w3-include-html="navigation.html"></div>
+        <!-- End of Navigation and Header -->
 
+        <!-- Content -->
         <div class="wrapper row2">
             <h4 class="spacing" align="center">Computer Graphics Projects</h4>
+            <p class="center">Below are some projects that are emphasized on graphics.</p>
 
+            <!-- Projects -->
             <div id="container" class="clear">
                 <div id="col1">
                     <h3 class="spacing2" align="center">Project PathFinder</h3>
-                    <img class="circle_image"src="https://dmctruong.000webhostapp.com/images/graphics_pathfinder.png" style="border: #000000 1px solid; width: 200px; display: block; margin-left: auto; margin-right: auto;"/>
+                    <a href="https://dmctruong.000webhostapp.com/graphics_pathfinder.html">
+                        <img class="circle_image"src="https://dmctruong.000webhostapp.com/images/graphics_pathfinder.png" style="border: #000000 1px solid; width: 200px; display: block; margin-left: auto; margin-right: auto;"/>
+                    </a>
                     <p class="spacing2">Displays 3D Models in browser.</p>
                 </div>
                 <div id="col2">
                     <h3 class="spacing2" align="center">Gallery</h3>
-                    <img class="circle_image" src="https://dmctruong.000webhostapp.com/images/graphics_gallery.png" style="border: #000000 1px solid; width: 200px; display: block; margin-left: auto; margin-right: auto;"/>
+                    <a href="graphics_gallery.html">
+                        <img class="circle_image" src="https://dmctruong.000webhostapp.com/images/graphics_gallery.png" style="border: #000000 1px solid; width: 200px; display: block; margin-left: auto; margin-right: auto;"/>
+                    </a>
                     <p class="spacing2">Displays art in browser.</p>
                 </div>
                 <div id="col3">
@@ -32,11 +41,12 @@
                 </div>
             </div>
         </div>
+        <!-- End of Content -->
+
         <!-- Footer -->
         <div w3-include-html="footer.html"></div> 
-        <script>
-            w3.includeHTML();
-        </script>
+        <script>w3.includeHTML();</script>
+        <!-- End of Footer -->
     </div>
 </body>
 </html>

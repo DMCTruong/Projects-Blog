@@ -13,8 +13,8 @@ img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;
 .imgl{float:left; margin:0 15px 15px 0; clear:left;}
 .imgr{float:right; margin:0 0 15px 15px; clear:right;}
 
-/* ========= Wrapper ========== */
-div.wrapper{display:block; width:960px; border-left:2px solid #000000; border-right:2px solid #000000; margin:0 auto; padding-left:45px; padding-right:45px; padding-top:10px; padding-bottom:10px; text-align:left; background-color: #ffffff;  background-position: 30% 20%; }
+/* Wrapper */
+div.wrapper{display: block; width: 960px; border-left: 1px solid #000000; border-right: 1px solid #000000; margin: 0 auto; padding-left: 45px; padding-right: 45px; padding-top: 10px; padding-bottom: 40px; text-align: left; background-color: #ffffff;  background-position: 30% 20%;}
 .animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
 .row2{color:#000000; background-color:#FFFFFF;}
 .row2 a{color:#FF9900; background-color:#FFFFFF;}
@@ -30,10 +30,11 @@ div.wrapper{display:block; width:960px; border-left:2px solid #000000; border-ri
 .lastbox{margin-right:0;}
 div.warning{display: block; width: 950px; background-color: #ff5a23; opacity: 0.75; font-size: 15px; color:white; box-shadow: 0px 5px 10px #888888; margin: 0; padding:1px;}
 .circle_image {border-radius: 50%;}
-/* ========= Overall ========== */
+/* Overall */
 a {outline: none; text-decoration: none;} 
 body{margin: 0; font-size: 14px; font-family: Georgia, "Times New Roman", Times, serif; color: #979797; background-color: #FFFFFF;}
 div.shadow_background{display: block; text-align: center; width: 1052px; height: 100%; background-color: white; box-shadow: 0px 0px 35px #888888; margin: 0px auto;}
+.center { text-align: center; font-size: 15px}
 
 #header, #container, #footer{display:block; width:960px;}
 nav ul{margin:0; padding:0; list-style:none;}
@@ -47,12 +48,12 @@ address{font-style:normal;}
 blockquote, q{display:block; padding:8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
 blockquote:before, q:before{content:'“ '; font-size:26px;}
 blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
-/* ========== Header ========== */
+/* Header */
 #header #heading{padding:5px 0;}
 #header #heading h1, #header #heading h2{font-weight:normal; text-transform:none;}
 #header #heading h1{font-size:30px;}
 #header #heading h2{font-size:13px;}
-/* ======== Navigation ======== */
+/* Navigation */
 #header nav {display: block; width: 100%; margin: 0; padding: 10px 0; border-top: 1px solid #DEDEDE; border-bottom: 1px solid #DEDEDE;}
 #header nav li {display: inline; margin-right:25px; text-transform: uppercase;}
 #header nav li a:hover {color: #FF9900; background-color: #FFFFFF;}
@@ -63,45 +64,47 @@ blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 .dropdown-content a:hover {background-color: #f1f1f1}
 .dropdown:hover .dropdown-content {display: block;}
 .navigation, .navigation a{color:#353535; background-color:#FFFFFF;} /*Navigation + Header*/
-/* ========= Main Body ======== */
+/* Main Body */
 #container{padding:10px 0;}
 #container section{display:block; width:100%; margin:0 0 30px 0; padding:0;}
 #container .last{margin:0;}
 #container .more{text-align:right; text-transform:uppercase; font-size:smaller; font-weight:bold;}
-/* ======== Cover Image ======= */
+/* Cover Image */
 #container #slider{display:block; width:100%;}
 #container #slider a{display:block; padding:9px; border:1px solid #DEDEDE;}
 #container #slider a:hover{border-color:#FF9900;}
-/* = Shout (Is this needed?) == */
-#container #shout{padding:0 0 20px 0; border-bottom:1px solid #DEDEDE; text-align:center;}
-#container #shout p{font-size:20px; margin:0; padding:0; line-height:1.8em;}
-/* ======= Main Content ======= */
+/* Main Content */
 #container #content{float:left; line-height:1.6em;}
 #latest ul{margin:0; padding: 5px; list-style:none;}
 #latest ul li{display:block; width:100%; margin-bottom:30px;}
 #latest ul li.last{margin-bottom:0;}
-#latest ul li article figure img{float:left; width:150px; height:150px; margin:0; padding:4px; border:1px solid #666666;}
+#latest ul li article figure img{float:left; width:150px; height:150px; margin:0; padding:4px;}
 #latest ul li article figure figcaption{display:block; padding: 45px; float:left;}
 #latest ul li article figure h2{font-size:14px;}
 /* Computer Graphics Page Style */
 #container #col1{display:block; padding: 15px; float:left; width:270px; color:black; background-color:#f2c0b0;}
 #container #col2{display:block; padding: 15px; float:left; width:270px; color:white; background-color:#c99e91;}
 #container #col3{display:block; padding: 15px; float:left; width:270px; color:#black; background-color:#ffefea;}
-/* ==== Projects Page Style === */
+/* Projects Page Style */
 #projects{display:block; width:960px; margin:0 auto;}
 #content #services{float:left; width:630px; line-height:1.6em;}
 #services ul{margin:0; padding:0; list-style:none;}
 #services ul li{display:block; width:100%; margin-bottom:30px;}
 #services ul li.last{ margin-bottom:0;}
 #services ul li article figure img{float:left; width:410px; height:150px; margin:0; padding:4px; border:1px solid black;}
-#services ul li article figure figcaption{display:block; float:right; width:410px; }
+#services ul li article figure figcaption{display:block; float:right; width:410px; background-color: #c8f2f4;}
 #services ul li article figure h2{font-size:14px;}
 #homepage{display:block; width:100%; line-height:1.6em;}
 #homepage #latest figure{padding:4px; border:1px solid #D6D6D6; text-align:center;}
 #homepage #latest figcaption{padding:5px; text-align:center; color:black; text-align:center;}
+/* Tools Page Style*/
+#figure img{float:left; width:150px; height:150px; margin:0; padding:4px; border:1px solid #666666;}
+/* Contacts Page Style */
+#about {display: block; width: 910px; padding: 25px; color: black; background-color: #fff5f4;}
+#contact {display: block; width: 930px; padding: 15px; color: black; background-color: #e5d6d5;}
 
-/* ========== Footer ========== */
+/* Footer */
 #footer{padding: 20px 0;}
 #footer p{margin: 0; padding: 0;}
-.footer{border-top: 1px solid #DEDEDE; border-bottom: 2px solid #000000;}
+.footer{border-top: 1px solid #DEDEDE; border-bottom: 1px solid #000000;}
 .footer, .footer a{width: 500px; color: #000000; background-color: #FFFFFF;}

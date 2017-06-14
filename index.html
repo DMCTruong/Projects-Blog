@@ -9,25 +9,32 @@
 <body>
     <div class="shadow_background" align="center">
         <!-- Navigation and Header -->
-        <div w3-include-html="navigation.html"></div> 
+        <div w3-include-html="navigation.html"></div>
+        <!-- End of Navigation and Header -->
+        
+        
         <!-- Content -->
         <div class="wrapper row2">
-
             <!-- Warning -->
-            <div class="warning">
-                <p align="center">Notice! This website is still under construction so there may be some pages missing.</p> 
-            </div>
-
+            <div class="warning"> 
+                <p align="center">Notice! This website is still under construction so some pages may be incomplete.</p> 
+            </div> <!-- End of Warning -->
+            
+            
+            <!-- Center Content --> 
             <div id="container" class="clear">
                 <!-- Center Image -->
-                <section id="slider">
+                <section id="slider"> 
                     <div class="w3-content w3-section" style="max-width:960px">
                         <img src="https://dmctruong.000webhostapp.com/images/index_overlay.png" class="overlay" >
                         <style> .overlay{ position:absolute;  z-index: 2; }</style>
                         <a class="mySlides animate-fading" href="graphics_pathfinder.html"><img src="https://dmctruong.000webhostapp.com/images/index_cover1.png" alt=""></a>
                         <a class="mySlides animate-fading" href="404.html"><img src="https://dmctruong.000webhostapp.com/images/index_cover2.png" alt=""></a>
                     </div>
-                    <script>
+                    
+                    
+                    <!-- Center Image Script -->
+                    <script> 
                         var myIndex = 0;
                         function carousel() {
                             var i;
@@ -43,25 +50,24 @@
                             setTimeout("carousel()", 10000);
                         }
                         carousel();
-                    </script>
-                </section>
-
+                    </script> <!-- End of Center Image Script -->
+                </section> <!-- End of Center Image -->
+                
+                <!-- Categories -->
                 <div id="content">
                     <h5 align="center">Hello, welcome to my website.</h5>
-                    <!-- Center Article -->
                     <section>
                         <article>
                             <p align="center">This is a website of miscellous projects. It is all created as an intellectual challenge for myself. Feel free to browse around, maybe one of the projects may turn out to be useful for you!</p>
                         </article>		
                     </section>
-
-                    <!-- About the Categories -->
+                    
+                    <!-- About -->
                     <section id="latest" class="last">
                         <p><h4 align = "center">About the Site Categories.</h4></p>
                         <ul>
-
+                            <!-- Class Projects Category -->
                             <li>
-                                <!-- Class Projects Category -->
                                 <article class="clear">
                                     <figure><img class="circle_image" src="https://dmctruong.000webhostapp.com/images/index_projects.png" alt="">
                                         <figcaption>
@@ -72,9 +78,8 @@
                                     </figure>
                                 </article>                               
                             </li>
-
+                            <!-- Computer Graphics Category -->
                             <li>
-                                <!-- Computer Graphics Category -->
                                 <article class="clear">
                                     <figure><img class="circle_image" src="https://dmctruong.000webhostapp.com/images/index_graphics.png" alt="">
                                         <figcaption>
@@ -85,9 +90,8 @@
                                     </figure>
                                 </article>                               
                             </li>
-
+                            <!-- Tools Category -->
                             <li>
-                                <!-- News 2 -->
                                 <article class="clear">
                                     <figure><img class="circle_image" src="https://dmctruong.000webhostapp.com/images/index_tools.png" alt="">
                                         <figcaption>
@@ -99,16 +103,15 @@
                                 </article>			
                             </li>
                         </ul>
-                    </section>
-                </div>
-            </div>
-        </div>
+                    </section> <!-- About -->
+                </div> <!-- End of Categories -->
+            </div> <!-- End of Center Content -->
+        </div> <!-- End of Content -->
+        
         <!-- Footer -->
         <div w3-include-html="footer.html"></div> 
-        <script>
-            w3.includeHTML();
-        </script>
+        <script>w3.includeHTML();</script>
+        <!-- End of Footer -->
     </div>
 </body>
-
 </html>
