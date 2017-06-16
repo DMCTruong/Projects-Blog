@@ -9,7 +9,7 @@
 <body onload="loadIn()" style="margin:0;">
     <div id="page_loader"></div>
     <div style="display:none;" id="hideDiv">
-        <div class="shadow_background">
+        <div class="background_shadow">
             <!-- Navigation and Header -->
             <div w3-include-html="navigation.html"></div>
             <!-- End of Navigation and Header -->
@@ -17,7 +17,7 @@
 
             <!-- Content -->
             <div class="wrapper" style="height: 1650px;">
-                <h4 class="spacing" align="center">Art Gallery</h4>
+                <h4 class="spacing_large" align="center">Art Gallery</h4>
 
                 <!-- Image Rows -->
                 <div id="container">
@@ -44,51 +44,51 @@
                 <!-- End of Image Rows -->
 
                 <!-- Modal -->
-                <div id="myModal" class="modal">
+                <div id="gallery_modal" class="modal">
                     <span class="close cursor" onclick="closeModal()">&times;</span>
                     <div class="modal-content">
                         <!-- Slide show-->
-                        <div class="mySlides" align="center"><div class="numbertext">1 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/1.png" style="width:50%"></div>
-                        <div class="mySlides" align="center"><div class="numbertext">2 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/2.png" style="width:50%"></div>
-                        <div class="mySlides" align="center"><div class="numbertext">3 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/3.png" style="width:50%"></div>
-                        <div class="mySlides" align="center"><div class="numbertext">4 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/4.png" style="width:50%"></div>
-                        <div class="mySlides" align="center"><div class="numbertext">5 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/5.png" style="width:50%"></div>
-                        <div class="mySlides" align="center"><div class="numbertext">6 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/6.png" style="width:50%"></div>
-                        <div class="mySlides" align="center"><div class="numbertext">7 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/7.png" style="width:50%"></div>
-                        <div class="mySlides" align="center"><div class="numbertext">8 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/8.png" style="width:50%"></div>
-                        <div class="mySlides" align="center"><div class="numbertext">9 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/9.png" style="width:50%"></div>
-                        <div class="mySlides" align="center"><div class="numbertext">10 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/10.png" style="width:50%"></div>
-                        <div class="mySlides" align="center"><div class="numbertext">11 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/11.png" style="width:50%"></div>
-                        <div class="mySlides" align="center"><div class="numbertext">12 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/12.png" style="width:50%"></div>
-                        <div class="mySlides" align="center"><div class="numbertext">13 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/13.png" style="width:50%"></div>
+                        <div class="image_slides" align="center"><div class="slide_number">1 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/1.png" style="width:50%"></div>
+                        <div class="image_slides" align="center"><div class="slide_number">2 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/2.png" style="width:50%"></div>
+                        <div class="image_slides" align="center"><div class="slide_number">3 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/3.png" style="width:50%"></div>
+                        <div class="image_slides" align="center"><div class="slide_number">4 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/4.png" style="width:50%"></div>
+                        <div class="image_slides" align="center"><div class="slide_number">5 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/5.png" style="width:50%"></div>
+                        <div class="image_slides" align="center"><div class="slide_number">6 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/6.png" style="width:50%"></div>
+                        <div class="image_slides" align="center"><div class="slide_number">7 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/7.png" style="width:50%"></div>
+                        <div class="image_slides" align="center"><div class="slide_number">8 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/8.png" style="width:50%"></div>
+                        <div class="image_slides" align="center"><div class="slide_number">9 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/9.png" style="width:50%"></div>
+                        <div class="image_slides" align="center"><div class="slide_number">10 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/10.png" style="width:50%"></div>
+                        <div class="image_slides" align="center"><div class="slide_number">11 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/11.png" style="width:50%"></div>
+                        <div class="image_slides" align="center"><div class="slide_number">12 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/12.png" style="width:50%"></div>
+                        <div class="image_slides" align="center"><div class="slide_number">13 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/13.png" style="width:50%"></div>
                         <!-- End of Slide Show -->
 
 
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        <a class="prev_button" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next_button" onclick="plusSlides(1)">&#10095;</a>
 
                         <div class="caption-container"><p id="caption"></p></div>
                         <!-- Image Preview -->
 
                         <div id="display_container">
                             <div id="gallerydisplay_col">
-                                <img src="https://dmctruong.000webhostapp.com/images/gallery/1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="demo cursor" onclick="currentSlide(1)" alt="Marketplace by DMCT">
-                                <img src="https://dmctruong.000webhostapp.com/images/gallery/4.png" style="width:100%" onclick="openModal();currentSlide(4)" class="demo cursor" onclick="currentSlide(4)" alt="American Gothic: Grant Wood Parody by DMCT">
-                                <img src="https://dmctruong.000webhostapp.com/images/gallery/7.png" style="width:100%" onclick="openModal();currentSlide(7)" class="demo cursor" onclick="currentSlide(7)" alt="Enchanted Forest by DMCT"">
-                                <img src="https://dmctruong.000webhostapp.com/images/gallery/10.png" style="width:100%" onclick="openModal();currentSlide(10)" class="demo cursor" onclick="currentSlide(10)" alt="In Bloom by DMCT">
+                                <img src="https://dmctruong.000webhostapp.com/images/gallery/1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="modal_imgPreview cursor" onclick="currentSlide(1)" alt="Marketplace by DMCT">
+                                <img src="https://dmctruong.000webhostapp.com/images/gallery/4.png" style="width:100%" onclick="openModal();currentSlide(4)" class="modal_imgPreview cursor" onclick="currentSlide(4)" alt="American Gothic: Grant Wood Parody by DMCT">
+                                <img src="https://dmctruong.000webhostapp.com/images/gallery/7.png" style="width:100%" onclick="openModal();currentSlide(7)" class="modal_imgPreview cursor" onclick="currentSlide(7)" alt="Enchanted Forest by DMCT"">
+                                <img src="https://dmctruong.000webhostapp.com/images/gallery/10.png" style="width:100%" onclick="openModal();currentSlide(10)" class="modal_imgPreview cursor" onclick="currentSlide(10)" alt="In Bloom by DMCT">
                             </div>
                             <div id="gallerydisplay_col">
-                                <img src="https://dmctruong.000webhostapp.com/images/gallery/2.png" style="width:100%" onclick="openModal();currentSlide(2)" class="demo cursor" onclick="currentSlide(2)" alt="Flying Free by DMCT">
-                                <img src="https://dmctruong.000webhostapp.com/images/gallery/5.png" style="width:100%" onclick="openModal();currentSlide(5)" class="demo cursor" onclick="currentSlide(5)" alt="Green Country by DMCT">
-                                <img src="https://dmctruong.000webhostapp.com/images/gallery/8.png" style="width:100%" onclick="openModal();currentSlide(8)" class="demo cursor" onclick="currentSlide(8)" alt="Vase by DMCT">
-                                <img src="https://dmctruong.000webhostapp.com/images/gallery/11.png" style="width:100%" onclick="openModal();currentSlide(11)" class="demo cursor" onclick="currentSlide(11)" alt="Yggdrasil by DMCT">
+                                <img src="https://dmctruong.000webhostapp.com/images/gallery/2.png" style="width:100%" onclick="openModal();currentSlide(2)" class="modal_imgPreview cursor" onclick="currentSlide(2)" alt="Flying Free by DMCT">
+                                <img src="https://dmctruong.000webhostapp.com/images/gallery/5.png" style="width:100%" onclick="openModal();currentSlide(5)" class="modal_imgPreview cursor" onclick="currentSlide(5)" alt="Green Country by DMCT">
+                                <img src="https://dmctruong.000webhostapp.com/images/gallery/8.png" style="width:100%" onclick="openModal();currentSlide(8)" class="modal_imgPreview cursor" onclick="currentSlide(8)" alt="Vase by DMCT">
+                                <img src="https://dmctruong.000webhostapp.com/images/gallery/11.png" style="width:100%" onclick="openModal();currentSlide(11)" class="modal_imgPreview cursor" onclick="currentSlide(11)" alt="Yggdrasil by DMCT">
                             </div>
                             <div id="gallerydisplay_col">
-                                <img src="https://dmctruong.000webhostapp.com/images/gallery/3.png" style="width:100%" onclick="openModal();currentSlide(3)" class="demo cursor" onclick="currentSlide(3)" alt="Lotusanthymum by DMCT">
-                                <img src="https://dmctruong.000webhostapp.com/images/gallery/6.png" style="width:100%" onclick="openModal();currentSlide(6)" class="demo cursor" onclick="currentSlide(6)" alt="Bloom by DMCT">
-                                <img src="https://dmctruong.000webhostapp.com/images/gallery/9.png" style="width:100%" onclick="openModal();currentSlide(9)" class="demo cursor" onclick="currentSlide(9)" alt="The Vase: Parody by DMCT">
-                                <img src="https://dmctruong.000webhostapp.com/images/gallery/12.png" style="width:100%" onclick="openModal();currentSlide(12)" class="demo cursor" onclick="currentSlide(12)" alt="The Bedroom at Arles: Van Gogh Parody by DMCT">
-                                <img src="https://dmctruong.000webhostapp.com/images/gallery/13.png" style="width:100%" onclick="openModal();currentSlide(13)" class="demo cursor" onclick="currentSlide(13)" alt="In Bloom by DMCT">
+                                <img src="https://dmctruong.000webhostapp.com/images/gallery/3.png" style="width:100%" onclick="openModal();currentSlide(3)" class="modal_imgPreview cursor" onclick="currentSlide(3)" alt="Lotusanthymum by DMCT">
+                                <img src="https://dmctruong.000webhostapp.com/images/gallery/6.png" style="width:100%" onclick="openModal();currentSlide(6)" class="modal_imgPreview cursor" onclick="currentSlide(6)" alt="Bloom by DMCT">
+                                <img src="https://dmctruong.000webhostapp.com/images/gallery/9.png" style="width:100%" onclick="openModal();currentSlide(9)" class="modal_imgPreview cursor" onclick="currentSlide(9)" alt="The Vase: Parody by DMCT">
+                                <img src="https://dmctruong.000webhostapp.com/images/gallery/12.png" style="width:100%" onclick="openModal();currentSlide(12)" class="modal_imgPreview cursor" onclick="currentSlide(12)" alt="The Bedroom at Arles: Van Gogh Parody by DMCT">
+                                <img src="https://dmctruong.000webhostapp.com/images/gallery/13.png" style="width:100%" onclick="openModal();currentSlide(13)" class="modal_imgPreview cursor" onclick="currentSlide(13)" alt="In Bloom by DMCT">
                             </div>                   
                         </div>
                     </div>

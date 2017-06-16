@@ -13,7 +13,7 @@ function showPage() {
 var myIndex = 0;
 function carousel() {
     var i;
-    var x = document.getElementsByClassName("mySlides");
+    var x = document.getElementsByClassName("image_slides");
     for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
     }
@@ -27,11 +27,11 @@ function carousel() {
 
 //Lightbox Gallery
 function openModal() {
-    document.getElementById('myModal').style.display = "block";
+    document.getElementById('gallery_modal').style.display = "block";
 }
 
 function closeModal() {
-    document.getElementById('myModal').style.display = "none";
+    document.getElementById('gallery_modal').style.display = "none";
 }
 
 var slideIndex = 1;
@@ -47,8 +47,8 @@ function currentSlide(n) {
 
 function showSlides(n) {
     var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("demo");
+    var slides = document.getElementsByClassName("image_slides");
+    var dots = document.getElementsByClassName("modal_imgPreview");
     var captionText = document.getElementById("caption");
     if (n > slides.length) {
         slideIndex = 1
