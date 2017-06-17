@@ -8,25 +8,23 @@
 
 <body onload="loadIn()" style="margin:0;">
     <div id="page_loader"></div>
-    <div style="display:none;" id="hideDiv">
-        <div class="background_shadow">
-            <!-- Navigation and Header -->
-            <div w3-include-html="navigation.html"></div>
-            <!-- End of Navigation and Header -->
-
-            
-            <!-- Content -->
-            <div class="wrapper row2">
-                <!-- ADD CONTENT HERE -->
-            </div>
-            <!-- End of Content -->
+    <div class="background_shadow" id="hideDiv">
+        <!-- Navigation and Header -->
+        <div w3-include-html="navigation.html"></div>
+        <!-- End of Navigation and Header -->
 
 
-            <!--  Footer -->
-            <div w3-include-html="footer.html"></div> 
-            <script>w3.includeHTML();</script>
-            <!-- End of Footer -->
+        <!-- Content -->
+        <div class="wrapper">
+            <!-- ADD CONTENT HERE -->
         </div>
+        <!-- End of Content -->
+
+
+        <!--  Footer -->
+        <div w3-include-html="footer.html"></div> 
+        <script>w3.includeHTML();</script>
+        <!-- End of Footer -->
     </div>
 </body>
 </html>

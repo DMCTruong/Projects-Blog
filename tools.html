@@ -6,48 +6,46 @@
     <div w3-include-html="stylesheets.html"></div>
 </head>
 
-<body onload="loadIn()" style="margin:0;">
+
+<body onload="loadIn()">
     <div id="page_loader"></div>
-    <div style="display:none;" id="hideDiv">
-        <div class="background_shadow">
-            <!-- Navigation and Header -->
-            <div w3-include-html="navigation.html"></div>
-            <!-- End of Navigation and Header -->
+    <div class="background_shadow" id="hideDiv">
+        <!-- Navigation and Header -->
+        <div w3-include-html="navigation.html"></div>
+        <!-- End of Navigation and Header -->
 
 
-            <!-- Content -->
-            <div class="wrapper">
-                <div id="container" class="clear">
-                    <div id="content" style="width: 860px;">
-                        <h4 class="spacing_medium" align="center">Tools and Helpers</h4>
-                        <p class="center">Below are some random tools that I use to help with development.</p>
-                        <section id="projects">  
-                            <ul>
-                                <li>
-                                    <article class="clear">
-                                        <figure><img src="https://dmctruong.000webhostapp.com/images/tools_github.png" alt="">
-                                            <figcaption>
-                                                <h3>Git Bash Scripts</h3>
-                                                <p>Some simple scripts created for Git Bash to make the work flow more efficient.</p>
-                                                <footer class="more"><a href="tools_scripts.html">Read More &raquo;</a></footer>
-                                            </figcaption>
-                                        </figure>
-                                    </article>                               
-                                </li>
-                            </ul>
-                        </section>
-                    </div>
-                </div>
-            </div> 
-            <!-- End of Content -->
+        <!-- Content -->
+        <div class="wrapper">
+            <div align="center">
+                <h2 class="spacing_medium">Tools and Helpers</h2>
+                <p>Below are some random tools that I use to help with development.</p>
+            </div>
+            <div class="clear" id="container" style="width: 860px;">
+                <section id="projects">  
+                    <ul>
+                        <li>
+                            <article class="clear">
+                                <figure><img src="https://dmctruong.000webhostapp.com/images/tools_github.png" alt="Git Bash Scripts">
+                                    <figcaption>
+                                        <h3>Git Bash Scripts</h3>
+                                        <p>Some simple scripts created for Git Bash to make the work flow more efficient.</p>
+                                        <footer class="more"><a href="tools_scripts.html">Read More &raquo;</a></footer>
+                                    </figcaption>
+                                </figure>
+                            </article>                               
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div> 
+        <!-- End of Content -->
 
 
-
-            <!--  Footer -->
-            <div w3-include-html="footer.html"></div> 
-            <script>w3.includeHTML();</script>
-            <!-- End of Footer -->
-        </div>
+        <!--  Footer -->
+        <div w3-include-html="footer.html"></div> 
+        <script>w3.includeHTML();</script>
+        <!-- End of Footer -->
     </div>
 </body>
 </html>

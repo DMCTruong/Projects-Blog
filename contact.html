@@ -6,10 +6,10 @@
     <div w3-include-html="stylesheets.html"></div>
 </head>
 
-<body onload="loadIn()" style="margin:0;">
+
+<body onload="loadIn()">
     <div id="page_loader"></div>
-    <div style="display:none;" id="hideDiv">
-        <div class="background_shadow">
+        <div class="background_shadow" id="hideDiv">
             <!-- Navigation and Header -->
             <div w3-include-html="navigation.html"></div>
             <!-- End of Navigation and Header -->
@@ -18,9 +18,9 @@
             <!-- Content -->
             <div class="wrapper">      
                 <!-- About me -->
-                <div id="about">
-                    <h3 class="center spacing_medium">About me</h3>
-                    <p class="center">Hello there! Welcome to my web site. The web site showcases some of my projects that I have created and shared on GitHub.</p>
+                <div align="center" id="about">
+                    <h3 class="spacing_medium">About me</h3>
+                    <p>Hello there! Welcome to my web site. The web site showcases some of my projects that I have created and shared on GitHub.</p>
                     <p align="justify">
                         As for me, I am an undergraduate Computer Science student. I hope to be able to become a developer one day. The language that I mainly use is 
                         Java though I am also experimenting working with other languages such as Python and JavaScript. I mostly work with Java applications that emphasized more
@@ -30,7 +30,7 @@
                     </p>
                 </div>
                 <!-- Contact -->
-                <div id="contact" class="center">
+                <div align="center" id="contact">
                     <h3>Contact</h3>
                     <p>If you have any questions, feel free to contact me via email.</p>
                     <p>Email: diane.m.truong@gmail.com</p>
@@ -43,7 +43,6 @@
             <div w3-include-html="footer.html"></div> 
             <script>w3.includeHTML();</script>
             <!-- End of Footer -->
-        </div>
     </div>
 </body>
 </html>

@@ -6,43 +6,67 @@
     <div w3-include-html="stylesheets.html"></div>
 </head>
 
-<body onload="loadIn()" style="margin:0;">
+
+<body onload="loadIn()">
     <div id="page_loader"></div>
-    <div style="display:none;" id="hideDiv">
-        <div class="background_shadow">
-            <!-- Navigation and Header -->
-            <div w3-include-html="navigation.html"></div>
-            <!-- End of Navigation and Header -->
+    <div class="background_shadow" id="hideDiv">
+        <!-- Navigation and Header -->
+        <div w3-include-html="navigation.html"></div>
+        <!-- End of Navigation and Header -->
 
-
-            <!-- Content -->
-            <div class="wrapper">
-                <!-- Warning -->
-                <div class="warning"> 
-                    <p align="center">Notice! This website is still under construction so some pages may be incomplete.</p> 
-                </div> <!-- End of Warning -->  
-
-                <!-- Employee System -->
-                <h4 class="spacing_large" align="center">Employees Management System</h4>
-                <div class="center">
-                    <p>Below are some screen shots of the Employee Management System.</p>
+        <!-- Content -->
+        <div class="wrapper">
+            <!-- Warning -->
+            <div class="warning"> 
+                <p align="center">Notice! This website is still under construction so some pages may be incomplete.</p> 
+            </div>
+            <!-- Employee System -->
+            <div align="center">
+                <h2 class="spacing_large">Employee Management System</h2>
+                <p>
+                    The Employee Management System is a project that was created in class. It is a basic system that helps managers manage employees. 
+                    The system has the functions listed below.
+                </p>
+                <div align="left" style="margin-left: 30%;">
                     <ul>
-                        <img src="https://dmctruong.000webhostapp.com/images/employee_login.png">
-                        <img src="https://dmctruong.000webhostapp.com/images/employee_register.png">
-                        <img src="https://dmctruong.000webhostapp.com/images/employee_menu.png">
-                        <img src="https://dmctruong.000webhostapp.com/images/employee_search.png">
-                        <img src="https://dmctruong.000webhostapp.com/images/employee_count.png">
-                        <img src="https://dmctruong.000webhostapp.com/images/employee_print.png">
+                        <li>Registration system</li>
+                        <li>Login system</li>
+                        <li>Search for employee information</li>
+                        <li>Return number of employee registered in the system</li>
+                        <li>Print all employee information to the screen</li>
                     </ul>
                 </div>
-            </div><!-- End of Content -->
+                <p>Below are some screen shots of the Employee Management System's interface.</p>
+            </div>
+            <div align="center">
+                <img src="https://dmctruong.000webhostapp.com/images/employee_login.png" class="image_slides" style="width:870px; height:300px">
+                <img src="https://dmctruong.000webhostapp.com/images/employee_register.png" class="image_slides" style="width:870px; height:300px">
+                <img src="https://dmctruong.000webhostapp.com/images/employee_menu.png" class="image_slides" style="width:870px; height:300px">
+                <img src="https://dmctruong.000webhostapp.com/images/employee_search.png" class="image_slides" style="width:870px; height:300px">
+                <img src="https://dmctruong.000webhostapp.com/images/employee_count.png" class="image_slides" style="width:870px; height:300px">
+                <img src="https://dmctruong.000webhostapp.com/images/employee_print.png" class="image_slides" style="width:870px; height:300px">
+
+                <div style="padding-top: 5px;">
+                    <img src="https://dmctruong.000webhostapp.com/images/employee_login.png" class="img_preview opacity hover-opacity-off" style="width: 100px; height: 50px;" onclick="currentDiv(1)">
+                    <img src="https://dmctruong.000webhostapp.com/images/employee_register.png" class="img_preview opacity hover-opacity-off" style="width: 100px; height: 50px;" onclick="currentDiv(2)">
+                    <img src="https://dmctruong.000webhostapp.com/images/employee_menu.png" class="img_preview opacity hover-opacity-off" style="width: 100px; height: 50px;" onclick="currentDiv(3)">
+                    <img src="https://dmctruong.000webhostapp.com/images/employee_search.png" class="img_preview opacity hover-opacity-off" style="width: 100px; height: 50px;" onclick="currentDiv(4)">
+                    <img src="https://dmctruong.000webhostapp.com/images/employee_count.png" class="img_preview opacity hover-opacity-off" style="width: 100px; height: 50px;" onclick="currentDiv(5)">
+                    <img src="https://dmctruong.000webhostapp.com/images/employee_print.png" class="img_preview opacity hover-opacity-off" style="width: 100px; height: 50px;" onclick="currentDiv(6)">
+                </div>
+                <script> showDivs(slideIndex);</script>
 
 
-            <!--  Footer -->
-            <div w3-include-html="footer.html"></div> 
-            <script>w3.includeHTML();</script>
-            <!-- End of Footer -->
-        </div>
+                <!-- Download at GitHub-->
+                <p align="center">Be sure to check out the instructions in the README if you would like to download.</p>
+                <p align="center"><a href="https://github.com/DMCTruong/Class-Projects">Check it out at GitHub.</a></p>
+            </div>
+        </div><!-- End of Content -->
+
+        <!--  Footer -->
+        <div w3-include-html="footer.html"></div> 
+        <script>w3.includeHTML();</script>
+        <!-- End of Footer -->
     </div>
 </body>
 </html>

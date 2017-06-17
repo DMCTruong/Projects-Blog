@@ -1,3 +1,10 @@
+06/17/17
+- Added some information on projects
+- Fixed headers in CSS
+
+06/16/17
+- Added slide show to projects_employee.html
+
 06/15/17
 - Fixed navigation links to reflect new website location
 - Cleaned and reorganized CSS

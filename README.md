@@ -1,7 +1,7 @@
 # Blog of Miscellaneous Projects
 <pre>
 Version:              Projects Blog Version 2
-Date of Last Update:  June 15, 2017
+Date of Last Update:  June 17, 2017
 </pre>
 
 
