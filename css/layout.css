@@ -9,8 +9,8 @@ Date     :	June 17, 2017
 #container { display: block; width: 960px; padding: 10px 0; }
 #content { float: left; line-height: 1.6em; }
 #hideDiv { display: none; }
-div.background_shadow { display: block; width: 1052px; height: 100%; margin: 0px auto; background-color: #ffffff; box-shadow: 0px 0px 35px #888888; }
-div.warning { display: block; width: 870px; margin: 0; padding: 1px; background-color: #ff5a23; opacity: 0.75; color: white; font-size: 15px;  box-shadow: 0px 5px 10px #888888; }
+div.background_shadow { display: block; width: 1052px; height: 100%; margin: 0px auto; background-color: #ffffff; box-shadow: 0px 0px 35px #96b0bc; }
+div.warning { display: block; width: 870px; margin: 0; padding: 1px; background-color: #ff0045; opacity: 0.75; color: #ffffff; font-size: 15px;  box-shadow: 0px 5px 5px #6d001e; }
 div.wrapper { display: block; width: 960px; margin: 0 auto; padding-left: 45px; padding-right: 45px; padding-top: 10px; padding-bottom: 40px; background-color: #ffffff; text-align: left; }
 section { display: block; width: 100%; margin: 0 0 30px 0; padding: 0; }
 * { box-sizing: border-box; }
@@ -19,23 +19,26 @@ section { display: block; width: 100%; margin: 0 0 30px 0; padding: 0; }
 .one_quarter { display: block; width: 290px; margin: 0 0px 0 0; float: left; }
 .one_fifth { width: 20% }
 /* Default: Text */
-body { margin: 0; background-color: #ffffff; font-family: Georgia, "Times New Roman", Times, serif; color: #000000; font-size: 14px;  }
+body { margin: 0; background-color: #ffffff; font-family: Georgia, "Times New Roman", Times, serif; color: #000000; font-size: 14px; }
 h1 { margin: 0; padding: 0; font-family: Georgia, "Times New Roman", Times, serif; font-size: 16px; font-style: normal; line-height: normal; text-transform: uppercase; }
 h2 { margin: 0; padding: 0; text-align: center; font-family: 'Quicksand', sans-serif; font-size: 25px; font-style: normal; line-height: normal; text-transform: uppercase; }
 h3 { margin: 0; padding: 0; font-family: 'Raleway', sans-serif; font-size: 16px; font-style: normal; line-height: normal; text-transform: uppercase; } 
-h4 { margin: 0; padding: 0; text-align: center; font-family: 'Indie Flower', cursive; font-size: 23px; font-style: normal; line-height: normal; text-transform: uppercase; }
-read_more { text-align: right; font-size: smaller; font-weight: bold; text-transform: uppercase; }
+h4 { margin: 0; padding: 0; text-align: center; font-family: 'Josefin Sans', sans-serif; font-size: 23px; font-style: normal; line-height: normal; }
+p { font-size: 15px; }
+.read_more { text-align: right; color: #000000; font-size: smaller; font-weight: bold; }
+.read_more a { color: #000000; }
 .spacing_large { padding-top: 25px; padding-bottom: 35px; }
 .spacing_medium { padding-top: 25px; padding-bottom: 25px; }
 /* Default: Links */
-a { background-color: #ffffff; color: #FF9900; text-decoration: none; }
+a { background-color: #ffffff; color: #00bde8; text-decoration: none; }
 /* Default: Images */
 img { margin: 0; padding: 0; vertical-align: middle; line-height: normal; border: none;  }
-.circle_image { border-radius: 50%; border: #000000 1px solid; width: 200px; display: block; margin-left: auto; margin-right: auto;}
+.circle_image { display: block; width: 200px; margin-left: auto; margin-right: auto; border-radius: 50%; border: #000000 1px solid; }
+.rectangle_image { display: block; overflow: hidden; box-shadow: 5px 5px 15px #c7dce5;  } 
 .image_slides { display: none; }
 .overlay { position: absolute; z-index: 2; }
 /* Default: Slide Shows */
-#slideshow{display: block; max-width: 870px; border:1px solid #dedede;}
+#slideshow{display: block; max-width: 870px; border: 1px solid #dedede;}
 #slideshow a { display: block; padding: 9px; }
 .img_preview { cursor: pointer }
 .opacity,.hover-opacity:hover { opacity: 0.60 }
@@ -90,12 +93,15 @@ nav ul { margin: 0; padding: 0; list-style: none; }
 
 
 /* Index and Projects Page: Categories/Projects Section */
-#projects ul { margin: 0; padding: 5px; list-style:none; }
-#projects ul li { display: block; width: 100%; margin-bottom: 20px; }
-#projects ul li article figure img { margin: 0; width: 150px; height: 150px; padding: 4px; float: left; }
-#projects ul li article figure figcaption { display: block; padding: 15px; float: left; width: 610px; }
+.index_grad { margin-top: -30px; width: 870px; height: 150px; padding: 75px; background: #e8f9f9; background: -webkit-linear-gradient(#e8f9f9, #ffffff); background: -o-linear-gradient(#e8f9f9, #ffffff); background: -moz-linear-gradient(#e8f9f9, #ffffff); background: linear-gradient(#e8f9f9, #ffffff); }
+.index_last { display: block; width: 100%; }
+#projects ul { margin: 0; padding: 10px; list-style: none; }
+#projects ul li { display: block; width: 100%; margin-bottom: 100px; }
+#projects ul li article figure img { margin: 0px 0px 0px -170px; object-fit: cover; width: 275px; height: 150px; float: left;}
+#projects ul li article figure figcaption { display: block; padding: 25px; float: left; width: 650px; height: 149px; background: #ffffff; outline: 1px solid #dedede; box-shadow: 5px 5px 15px #c7dce5; }
+#projects ul li article h1 { font-size: 15px; letter-spacing: .3px; text-transform: none; }
 #projects ul li article figure h2 { font-size: 14px; }
-
+#bayes_h3{ padding: 10px; font-size: 25px; text-transform: none; }
 
 /* Computer Graphics Page: Columns */
 #col1 { display: block; padding: 15px; float: left; width: 290px; height: 400px; color: #000000; background-color: #f2c0b0; }
@@ -108,8 +114,8 @@ nav ul { margin: 0; padding: 0; list-style: none; }
 
 
 /* Contacts Page: Contents */
-#about { display: block; width: 870px; padding: 25px; background-color: #fff5f4; color: #000000; }
-#contact { display: block; width: 870px; padding: 15px; background-color: #e5d6d5; color: #000000 }
+#about { display: block; width: 870px; padding: 25px; background-color: #fff5f4; color: #000000; box-shadow: 1px 5px 7px #a39b97; }
+#contact { display: block; width: 870px; padding: 15px; background-color: #e5d6d5; color: #000000; box-shadow: 1px 3px 6px #a39b97; }
 
 
 /* Footer Page: Formatting */

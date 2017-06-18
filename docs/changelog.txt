@@ -1,3 +1,6 @@
+06/18/17
+- Updated index.html
+
 06/17/17
 - Added some information on projects
 - Fixed headers in CSS
