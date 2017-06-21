@@ -7,9 +7,9 @@
 </head>
 
 
-<body onload="loadIn()" style="margin:0;">
+<body onload="loadIn()">
     <div id="page_loader"></div>
-    <div class="background_shadow" id="hideDiv">
+    <div class="shrink background_shadow" id="hideDiv">
         <!-- Navigation and Header -->
         <div w3-include-html="navigation.html"></div>
         <!-- End of Navigation and Header -->
@@ -23,15 +23,47 @@
             </div>
             <!-- Server -->
             <h2 class="spacing_large">Server and Client Implementation</h2>
-            <p>
-                The server and client implementation is a program written in C. The server can take login information from the client and if 
-                the client successfully logged in, the client can send a message to the server and the server displays the message to the screen.
-            </p>
 
+            <!-- About -->
+            <div align="center">
+                <div>
+                    <p>
+                        The server and client implementation is a program written in C. The server can take login information from the client and if 
+                        the client successfully logged in, the client can send a message to the server and the server displays the message to the screen.
+                        Originally, this project was created for a class project to study. It will be expanded further with added functionality. 
+                    </p>
+                </div>
 
-            <!-- Download at GitHub-->
-            <p align="center">Be sure to check out the instructions in the README if you would like to download.</p>
-            <p align="center"><a href="https://github.com/DMCTruong/Class-Projects">Check it out at GitHub.</a></p>
+                <!-- Installation -->
+                <div>
+                    <h3 id="content_h3">Installation</h3>
+                    <p>To install the program, download it at GitHub, and then compile it, make sure the text file is in the same folder as the program. The program also uses a terminal 
+                        so the user must have a terminal installed to run it.</p>
+                    <!-- Download at GitHub-->
+                    <p>Be sure to check out the instructions in the README if you would like to download.</p>
+                    <a href="https://github.com/DMCTruong/Class-Projects/tree/master/Simple-Server-and-Client" class="download_a"><button class="download" align="center">Download at GitHub</button></a>     
+                </div>
+
+                <!-- Usage -->
+                <div>
+                    <h3 id="content_h3">Usage</h3>
+                    <p>To run the program, run the server and client programs on separate terminals. Be sure to run the server program first then the client. Then enter a user name and password listed on 
+                        the server terminal and wait for the server to verify and accept it. Then the user may enter a message and send it to the server. If all goes well, the server should send the message right back.</p>
+                </div>
+
+                <!-- Support -->
+                <div>
+                    <h3 id="content_h3">Support</h3>
+                    <p>To report or bug, please send it <a href="https://github.com/DMCTruong/Class-Projects/issues">here</a>.
+                        Be sure to add the prefix "[Server/Client] " to the title before submitting.</p>
+                </div>
+
+                <!-- Contribute -->
+                <div>
+                    <h3 id="content_h3">Contribute</h3>
+                    <p>To contribute, please use <a href="https://guides.github.com/introduction/flow/">Github Flow</a>.</p>
+                </div>
+            </div>
         </div><!-- End of Content -->
 
 

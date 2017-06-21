@@ -8,7 +8,7 @@
 
 <body onload="loadIn()">
     <div id="page_loader"></div>
-    <div class="background_shadow" id="hideDiv">
+    <div class="shrink background_shadow" id="hideDiv">
         <!-- Navigation and Header -->
         <div w3-include-html="navigation.html"></div>
         <!-- End of Navigation and Header -->
@@ -21,11 +21,13 @@
             </div>
 
             <!-- Content -->
-            <div>
+            <div align="center">
                 <h2 class="spacing_large">Github Bash Scripts</h2>
-                <p>This repository contains some shell scripts that runs common Github commands such as "git init" and "git commit" using Git Bash.</p>
+                <p>This repository contains some shell scripts that runs common Github commands such as "git init" and "git commit" using Git Bash.
+                    The purpose of these shell scripts is to help speed up the development process of future projects, simplify, and automate repetitive tasks.</p>
 
-                <h3 align="center">Shell Scripts and Descriptions</h3>
+                <!-- Shell Scripts and Descriptions  -->
+                <h3 id="content_h3">Shell Scripts and Descriptions</h3>
                 <div align="left" style="margin-left: 5%;">
                     <ul>
                         <li> setup_git.sh:  Sets up a new repository and requests the user for information and the repository origin.</li>
@@ -33,24 +35,37 @@
                         <li> set_tracking_branch.sh: Sets or switch the current branch tracking information.</li>
                         <li> commit_and_push_git.sh: Adds and commits files to the web repository.</li>
                         <li> remove_deleted_commit_files_git.sh: Removes deleted commit files.</li>
-                        <li> rollback_a_commit_git.sh: Rolls back a commit.</p>
+                        <li> rollback_a_commit_git.sh: Rolls back a commit.</li>
                         <li> generate_sshkey.sh: Generates a ssh-key and copies it to the clipboard.</li>
                     </ul>
                 </div>
 
-                <h3 align="center">Usage:</h3>
-                <div align="left" style="margin-left: 5%;">
-                    <ol>
-                        <li>Download the .sh files</li>
+                <h3 id="content_h3">Installation</h3>
+                <div align="left" style="margin-left: 5%;"> <!-- Installation -->
+                    <ul>
+                        <li>Download the .sh files from GitHub</li>
                         <li>Move it to the root of the repository</li>
+                    </ul>   
+                </div>
+                <a href="https://github.com/DMCTruong/Git-Bash-Scripts" class="download_a"><button class="download" align="center">Download at GitHub</button></a>          
+
+                <!-- Usage -->
+                <h3 id="content_h3">Usage:</h3>
+                <div align="left" style="margin-left: 5%;">
+                    <ul>
                         <li>Double click to run it. Some of the scripts will ask the user for input.</li>
-                    </ol>
+                    </ul>
                 </div>
 
-                <h3 align="center">Purpose</h3>
-                <p>The purpose of these shell scripts is to help speed up the development process of future projects, simplify, and automate repetitive tasks.</p>
+                <div> <!-- Support -->
+                    <h3 id="content_h3">Support</h3>
+                    <p>If there's an issue or bug, report it <a href="https://github.com/DMCTruong/Git-Bash-Scripts/issues">here</a> and I will take a look.</p>
+                </div>
 
-                <p align="center"><a href="https://github.com/DMCTruong/Git-Bash-Scripts">Download at GitHub</a></p>
+                <div> <!-- Contribute -->
+                    <h3 id="content_h3">Contribute</h3>
+                    <p>To contribute, please use <a href="https://guides.github.com/introduction/flow/">Github Flow</a>.</p>
+                </div>
             </div>
         </div>
         <!-- End of Content -->
