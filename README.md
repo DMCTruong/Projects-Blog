@@ -1,8 +1,8 @@
 # Blog of Miscellaneous Projects
 <pre>
 Created by:				DMCTruong
-Date of Last Update:  	June 21, 2017
-Percent of Completion:	43%
+Date of Last Update:  	June 27, 2017
+Percent of Completion:	44%
 Version:              	Projects Blog Version 2
 </pre>
 

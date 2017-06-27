@@ -1,3 +1,6 @@
+06/27/17
+- Fixed some information about projects
+
 06/21/17
 - Added more information on all projects under categories "Class Projects" and "Tools/Helpers"
 - Added GitHub download button
