@@ -1,8 +1,8 @@
 # Blog of Miscellaneous Projects
 <pre>
 Created by:				DMCTruong
-Date of Last Update:  	June 27, 2017
-Percent of Completion:	44%
+Date of Last Update:  	July 3, 2017
+Percent of Completion:	45%
 Version:              	Projects Blog Version 2
 </pre>
 
@@ -15,10 +15,10 @@ The Blog of Miscellaneous Projects is a website or blog that showcases some of t
 - Working on adding more information about the projects.
 
 # To-do List:
-- Add a color-picker
 - Add a page about the website's background
-- Redo styling on project pages
-- Reformatting the html so that it's more readable
+- Working on X3DOM Project
+- Add a Java try-me
+- Update Contact page
 
 
 

@@ -1,3 +1,15 @@
+07/3/17
+- Removed unused files
+- Renamed Project Pathfinder to X3DOM Project
+- Fixed graphics.html and minor fixes to other pages.
+- Added Spectrum jQuery Color Picker to navigation
+
+07/2/17
+- Refined and finished customizing Spectrum jQuery Color Picker
+
+06/29/17
+- Implemented test version of Spectrum jQuery Color Picker
+
 06/27/17
 - Fixed some information about projects
 
