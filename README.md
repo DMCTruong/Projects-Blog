@@ -1,6 +1,6 @@
 # Blog of Miscellaneous Projects
 <pre>
-Created by:				DMCTruong
+Created by:		DMCTruong
 Date of Last Update:  	July 3, 2017
 Percent of Completion:	45%
 Version:              	Projects Blog Version 2
@@ -19,6 +19,8 @@ The Blog of Miscellaneous Projects is a website or blog that showcases some of t
 - Working on X3DOM Project
 - Add a Java try-me
 - Update Contact page
+- Add a "please wait" message to gallery page
+- Fix the way previews are displayed in gallery modal
 
 
 

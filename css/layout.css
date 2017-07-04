@@ -25,8 +25,9 @@ h1 { margin: 0; padding: 0; font-family: Georgia, "Times New Roman", Times, seri
 h2 { margin: 0; padding: 0; text-align: center; font-family: 'Quicksand', sans-serif; font-size: 25px; font-style: normal; line-height: normal; text-transform: uppercase; }
 h3 { margin: 0; padding: 0; font-family: 'Raleway', sans-serif; font-size: 16px; font-style: normal; line-height: normal; text-transform: uppercase; } 
 h4 { margin: 0; padding: 0; text-align: center; font-family: 'Josefin Sans', sans-serif; font-size: 23px; font-style: normal; line-height: normal; }
+h5 { margin: 0; padding: 0; text-align: center; font-family: 'Poiret One', cursive; font-size: 20px; font-style: oblique; font-weight: 500; line-height: normal; text-decoration: underline; }
 p { font-size: 15px; }
-p_small { line-height: 50%;font-size: 15px; }
+p_small { line-height: 50%; font-size: 15px; }
 .read_more { text-align: right; color: #000000; font-size: smaller; font-weight: bold; }
 .read_more a { color: #000000; }
 .shrink { transform: scale(0.9); transform-origin: 50% 0; }
@@ -128,8 +129,9 @@ nav ul { margin: 0; padding: 0; list-style: none; }
 
 
 /* Contacts Page: Contents */
-#about { display: block; width: 870px; padding: 25px; background-color: #fff5f4; color: #000000; box-shadow: 1px 5px 7px #a39b97; }
-#contact { display: block; width: 870px; padding: 15px; background-color: #e5d6d5; color: #000000; box-shadow: 1px 3px 6px #a39b97; }
+#about { display: block; width: 870px;  padding-left: 60px; padding-right: 60px; padding-top: 25px; padding-bottom: 60px; background-color: #282c2c; color: #e3f2f0; box-shadow: 1px 5px 7px #a39b97; }
+#contact { display: block; margin-top: 50px; width: 870px; padding-top: 40px; padding-bottom: 30px; background-color: #333839; color: #e3f2f0; box-shadow: 1px 3px 6px #a39b97; }
+#contact p { line-height: 25%;}
 
 
 /* Footer Page: Formatting */

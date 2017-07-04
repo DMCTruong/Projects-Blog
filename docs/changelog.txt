@@ -1,4 +1,5 @@
 07/3/17
+- Changed contact.html and projects_employee.html
 - Removed unused files
 - Renamed Project Pathfinder to X3DOM Project
 - Fixed graphics.html and minor fixes to other pages.
