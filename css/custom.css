@@ -1,0 +1,73 @@
+/* 
+Site Name : 	A Miscellaneous Projects Blog
+Author :	Diane Truong
+Date :          July 10, 2017
+File :            custom.css
+Description : Contains default styles used throughout the website
+*/
+
+
+/* Navigation Page: Div */
+#header { display: block; width: 960px; }
+#heading { padding: 5px 0; }
+.navigation, .navigation a { color:#353535; background-color: #FFFFFF; } /* Overrides the default link color scheme */
+/* Navigation Page: Navigation Bar */
+nav ul { margin: 0; padding: 0; list-style: none; }
+#header nav { display: block; width: 870px; padding: 10px 0; border-top: 1px solid #dedede; border-bottom: 1px solid #dedede; }
+#header nav li { display: inline; margin-right: 40px; text-transform: uppercase; }
+#header nav li a:hover { color: #0694bb; background-color: #ffffff; }
+/* Navigation Page: Navigation Dropdown Lists */
+.dropbtn { padding: 16px; font-size: 16px; color: #ffffff; border: none; cursor: pointer; }
+.dropdown { display: inline-block; position: relative; }
+.dropdown-content { display: none; position: absolute;  min-width: 170px; z-index: 3; background-color: #f9f9f9; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); }
+.dropdown-content a { display: block; z-index: 3; padding: 12px 16px; color: #000000; }
+.dropdown-content a:hover { z-index: 3; background-color: #f1f1f1 }
+.dropdown:hover .dropdown-content { display: block; }
+
+
+/* Index and Projects Page: Categories/Projects Section */
+.index_grad { margin-top: -30px; width: 870px; height: 150px; padding: 75px; background: #e8f9f9; background: -webkit-linear-gradient(#e8f9f9, #ffffff); background: -o-linear-gradient(#e8f9f9, #ffffff); background: -moz-linear-gradient(#e8f9f9, #ffffff); background: linear-gradient(#e8f9f9, #ffffff); }
+.index_last { display: block; width: 100%; }
+#projects ul { margin: 0; padding: 10px; list-style: none; }
+#projects ul li { display: block; width: 100%; margin-bottom: 100px; }
+#projects ul li article figure img { margin: 0px 0px 0px -170px; object-fit: cover; width: 275px; height: 150px; float: left;}
+#projects ul li article figure figcaption { display: block; padding: 25px; float: left; width: 650px; height: 149px; background: #ffffff; outline: 1px solid #dedede; box-shadow: 5px 5px 15px #c7dce5; }
+#projects ul li article h1 { font-size: 15px; letter-spacing: .3px; text-transform: none; }
+#projects ul li article figure h2 { font-size: 14px; }
+
+/* Computer Graphics Page: Columns */
+#col1 { display: block; padding: 15px; float: left; width: 290px; height: 400px; color: #b0dbda; background-color: #1a1c1c; }
+#col2 { display: block; padding: 15px; float: left; width: 290px; height: 400px; color: #ffffff; background-color: #3d4140; }
+#col3 { display: block; padding: 15px; float: left; width: 290px; height: 400px; color: #000000; background-color: #ffefea; }
+
+
+/* Tools Page: Image Style */
+#tools_projects ul { margin: 0; padding: 10px; list-style: none; }
+#tools_projects ul li { display: block; width: 100%; height: 150px; margin-bottom: 100px; background: #24292e; box-shadow: 7px 5px 15px #3f5668; }
+#tools_projects ul li article figure img { width: 80px; height: 80px; margin-top: 30px; padding: 4px; float: left; }
+#tools_projects ul li article figure figcaption { display: block;  width: 610px; height: 120px;  margin-left: 10px; margin-top: 20px; padding: 25px; float: left; background: #24292e; color: #f4f4f4;}
+#tools_projects ul li article h4 { text-align: center; color: #42f4eb; font-size: 20px; letter-spacing: .3px; text-transform: none; }
+#tools h2 { font-size: 30px; text-transform: none; }
+.tools_read_more { text-align: right; background: #24292e; color: #42f4eb; font-size: smaller; font-weight: bold; }
+.tools_read_more a { background: #24292e; color: #42f4eb }
+
+
+/* Contacts Page: Contents */
+#about { display: block; width: 870px;  padding-left: 60px; padding-right: 60px; padding-top: 25px; padding-bottom: 60px; background-color: #282c2c; color: #e3f2f0; box-shadow: 1px 5px 7px #a39b97; }
+#contact { display: block; margin-top: 50px; width: 870px; padding-top: 40px; padding-bottom: 30px; background-color: #333839; color: #e3f2f0; box-shadow: 1px 3px 6px #a39b97; }
+#contact p { line-height: 25%;}
+
+
+/* Footer Page: Formatting */
+#footer { display: block; width: 960px; height: 100px; padding: 20px 0; background: #ffffff; }
+#footer p { width: 870px; margin: auto; padding: 25px; float: left; }
+.footer { margin: 90px; align: center;  border-top: 1px solid #DEDEDE; }
+.footer, .footer a { width: 870px; background-color: #FFFFFF; color: #000000; }
+
+
+
+
+
+
+
+
