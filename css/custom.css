@@ -53,10 +53,10 @@ nav ul { margin: 0; padding: 0; list-style: none; }
 
 
 /* Contacts Page: Contents */
-#about { display: block; width: 870px;  padding-left: 60px; padding-right: 60px; padding-top: 25px; padding-bottom: 60px; background-color: #282c2c; color: #e3f2f0; box-shadow: 1px 5px 7px #a39b97; }
-#contact { display: block; margin-top: 50px; width: 870px; padding-top: 40px; padding-bottom: 30px; background-color: #333839; color: #e3f2f0; box-shadow: 1px 3px 6px #a39b97; }
-#contact p { line-height: 25%;}
-
+#about { display: block; width: 870px;  padding-left: 60px; padding-right: 60px; padding-bottom: 80px; background-color: #333839; color: #f2f2f2; box-shadow: 1px 5px 7px #a39b97; }
+#about p { font-family: 'Open Sans', sans-serif; }
+#contact { display: block; margin-top: 50px; width: 870px; padding-left: 60px; padding-right: 60px; padding-top: 37px; padding-bottom: 40px; background-color: #333839; color: #f2f2f2; box-shadow: 1px 3px 6px #a39b97; }
+#contact p { font-family: 'Open Sans', sans-serif; }
 
 /* Footer Page: Formatting */
 #footer { display: block; width: 960px; height: 100px; padding: 20px 0; background: #ffffff; }
