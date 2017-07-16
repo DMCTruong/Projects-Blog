@@ -1,3 +1,6 @@
+07/16/17
+- Updated information in project_bayes.html
+
 07/14/17
 - Minor changes to contact.html
 
