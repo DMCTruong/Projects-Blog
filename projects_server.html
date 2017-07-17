@@ -27,7 +27,7 @@
             <!-- About -->
             <div align="center">
                 <div>
-                    <p>
+                    <p align="justify" style="margin-left: 10%; margin-right: 10%">
                         The server and client implementation is a program written in C. The server can take login information from the client and if 
                         the client successfully logged in, the client can send a message to the server and the server displays the message to the screen.
                         Originally, this project was created for a class project to study. It will be expanded further with added functionality. 
@@ -37,24 +37,42 @@
                 <!-- Installation -->
                 <div>
                     <h3 id="content_h3">Installation</h3>
-                    <p>To install the program, download it at GitHub, and then compile it, make sure the text file is in the same folder as the program. The program also uses a terminal 
-                        so the user must have a terminal installed to run it.</p>
-                    <!-- Download at GitHub-->
-                    <p>Be sure to check out the instructions in the README if you would like to download.</p>
+                    <div align="left" style="margin-left: 10%;">
+                        <p>To install the program:</p>
+                        <ol>
+                            <li>Download the program at GitHub</li>
+                            <li>Extract the program to a folder of your choosing and make sure the text file is in the same folder as the program.</li>
+                            <li>Make sure "gcc" is installed</li>
+                            <li>Compile the two files.</li>
+                            <ol>- Compile server.c with: gcc -o server server.c</ol>
+                            <ol>- Compile client.c with: gcc -o client client.c</ol>
+                            <li>Once the two files are compiled, proceed to the Usage section for information on how to run it.</li>
+                        </ol>
+                        <!-- Download at GitHub-->
+                        <p>Be sure to check out the instructions in the README if you would like to download.</p>
+                    </div>
                     <a href="https://github.com/DMCTruong/Class-Projects/tree/master/Simple-Server-and-Client" class="download_a"><button class="download" align="center">Download at GitHub</button></a>     
                 </div>
 
                 <!-- Usage -->
                 <div>
                     <h3 id="content_h3">Usage</h3>
-                    <p>To run the program, run the server and client programs on separate terminals. Be sure to run the server program first then the client. Then enter a user name and password listed on 
-                        the server terminal and wait for the server to verify and accept it. Then the user may enter a message and send it to the server. If all goes well, the server should send the message right back.</p>
+                    <div align="left" style="margin-left: 10%;">
+                        <p>To use the program:</p>
+                        <ol>
+                            <li>Run the compiled server program first on one terminal, then leave the server program as it is.</li>
+                            <li>Next, run the compiled client program on a separate terminal</li>
+                            <li>On the client terminal, enter a user name and password that is listed on the server terminal and then wait for the server to verify and accept it.</li> 
+                            <li>If the server accepts the user name and password, the user may enter a message and send it to the server. If all goes well, the server should send the message right back and that would be the end of the program.</li>
+                            <li>If the server does not accept the user name and password, then the user must re-enter the username and password. Be sure that the user name and password are one of the few that is already listed on the server terminal.</li>
+                        </ol>
+                    </div>
                 </div>
 
                 <!-- Support -->
                 <div>
                     <h3 id="content_h3">Support</h3>
-                    <p>To report an issue, a bug, or request a feature, please send it <a href="https://github.com/DMCTruong/Class-Projects/issues">here</a>.
+                    <p style="margin-left: 10%; margin-right: 10%">To report an issue, a bug, or request a feature, please send it <a href="https://github.com/DMCTruong/Class-Projects/issues">here</a>.
                         Be sure to add the prefix "[Server/Client] " to the title before submitting.</p>
                 </div>
 

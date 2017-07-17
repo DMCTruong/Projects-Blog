@@ -1,5 +1,8 @@
+07/17/17
+- Updated information for projects_employee.html and projects_server.html
+
 07/16/17
-- Updated information in project_bayes.html
+- Updated information in projects_bayes.html
 
 07/14/17
 - Minor changes to contact.html

@@ -1,8 +1,7 @@
 # Blog of Miscellaneous Projects
 <pre>
 Created by:		DMCTruong
-Date of Last Update:  	July 14, 2017
-Percent of Completion:	46.3%
+Date of Last Update:  	July 17, 2017
 Version:              	Projects Blog Version 2
 Website Link:		<a href="https://dmctruong.github.io/index.html">https://dmctruong.github.io/index.html</a>
 </pre>
