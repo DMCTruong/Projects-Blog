@@ -1,3 +1,6 @@
+08/10/17
+- Added information on the main category pages.
+
 07/17/17
 - Updated information for projects_employee.html and projects_server.html
 

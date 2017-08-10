@@ -30,8 +30,8 @@ nav ul { margin: 0; padding: 0; list-style: none; }
 .index_last { display: block; width: 100%; }
 #projects ul { margin: 0; padding: 10px; list-style: none; }
 #projects ul li { display: block; width: 100%; margin-bottom: 100px; }
-#projects ul li article figure img { margin: 0px 0px 0px -170px; object-fit: cover; width: 275px; height: 150px; float: left;}
-#projects ul li article figure figcaption { display: block; padding: 25px; float: left; width: 650px; height: 149px; background: #ffffff; outline: 1px solid #dedede; box-shadow: 5px 5px 15px #c7dce5; }
+#projects ul li article figure img { margin: 0px 0px 0px -170px; object-fit: cover; width: 275px; height: 210px; float: left;}
+#projects ul li article figure figcaption { display: block; padding: 25px; float: left; width: 650px; height: 209px; background: #ffffff; outline: 1px solid #dedede; box-shadow: 5px 5px 15px #c7dce5; }
 #projects ul li article h1 { font-size: 15px; letter-spacing: .3px; text-transform: none; }
 #projects ul li article figure h2 { font-size: 14px; }
 
