@@ -1,3 +1,15 @@
+##########################################################################################
+# Program Name	:	Website of Miscellaneous Projects
+# Author		:	DMCTruong
+# Last Updated	:	August 11, 2017
+# License		:	MIT
+# Description	:	A website showcasing selected projects and techinology implementations.             
+##########################################################################################
+
+08/11/17
+- Updated some information on jQuery Color Picker page.
+- Added jQuery Color Picker information on main Tools Category page.
+
 08/10/17
 - Added information on the main category pages.
 

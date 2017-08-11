@@ -43,7 +43,7 @@ nav ul { margin: 0; padding: 0; list-style: none; }
 
 /* Tools Page: Image Style */
 #tools_projects ul { margin: 0; padding: 10px; list-style: none; }
-#tools_projects ul li { display: block; width: 100%; height: 150px; margin-bottom: 100px; background: #24292e; box-shadow: 7px 5px 15px #3f5668; }
+#tools_projects ul li { display: block; width: 100%; height: 150px; background: #24292e; box-shadow: 7px 5px 15px #3f5668; }
 #tools_projects ul li article figure img { width: 80px; height: 80px; margin-top: 30px; padding: 4px; float: left; }
 #tools_projects ul li article figure figcaption { display: block;  width: 610px; height: 120px;  margin-left: 10px; margin-top: 20px; padding: 25px; float: left; background: #24292e; color: #f4f4f4;}
 #tools_projects ul li article h4 { text-align: center; color: #42f4eb; font-size: 20px; letter-spacing: .3px; text-transform: none; }
