@@ -18,7 +18,7 @@
         <!-- Content -->
         <div class="wrapper" style="height: 1650px;">
             <h2 class="spacing_large">Art Gallery</h2>
-            <p>An art gallery that was created with JavaScript.</p>
+            <p>Below is an art gallery that is powered by JavaScript.</p>
             
             <!-- Image Rows -->
             <div id="container">
@@ -49,6 +49,8 @@
             <div class="modal" id="gallery_modal">
                 <span class="close_button cursor" onclick="closeModal()">&times;</span>
                 <div class="modal-content">
+					
+					
                     <!-- Slide show-->
                     <div class="image_slides" align="center"><div class="slide_number">1 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/1.png" style="width:50%"></div>
                     <div class="image_slides" align="center"><div class="slide_number">2 / 13</div><img src="https://dmctruong.000webhostapp.com/images/gallery/2.png" style="width:50%"></div>
@@ -69,28 +71,24 @@
                     <a class="prev_button" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next_button" onclick="plusSlides(1)">&#10095;</a>
                     <div class="caption-container"><p id="caption"></p></div>
-                    <!-- Image Preview -->
-                    <div id="display_container">
-                        <div id="gallerydisplay_col">
-                            <img src="https://dmctruong.000webhostapp.com/images/gallery/1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="modal_imgPreview cursor" onclick="currentSlide(1)" alt="Marketplace by DMCT">
-                            <img src="https://dmctruong.000webhostapp.com/images/gallery/4.png" style="width:100%" onclick="openModal();currentSlide(4)" class="modal_imgPreview cursor" onclick="currentSlide(4)" alt="American Gothic: Grant Wood Parody by DMCT">
-                            <img src="https://dmctruong.000webhostapp.com/images/gallery/7.png" style="width:100%" onclick="openModal();currentSlide(7)" class="modal_imgPreview cursor" onclick="currentSlide(7)" alt="Enchanted Forest by DMCT"">
-                            <img src="https://dmctruong.000webhostapp.com/images/gallery/10.png" style="width:100%" onclick="openModal();currentSlide(10)" class="modal_imgPreview cursor" onclick="currentSlide(10)" alt="In Bloom by DMCT">
-                        </div>
-                        <div id="gallerydisplay_col">
-                            <img src="https://dmctruong.000webhostapp.com/images/gallery/2.png" style="width:100%" onclick="openModal();currentSlide(2)" class="modal_imgPreview cursor" onclick="currentSlide(2)" alt="Flying Free by DMCT">
-                            <img src="https://dmctruong.000webhostapp.com/images/gallery/5.png" style="width:100%" onclick="openModal();currentSlide(5)" class="modal_imgPreview cursor" onclick="currentSlide(5)" alt="Green Country by DMCT">
-                            <img src="https://dmctruong.000webhostapp.com/images/gallery/8.png" style="width:100%" onclick="openModal();currentSlide(8)" class="modal_imgPreview cursor" onclick="currentSlide(8)" alt="Vase by DMCT">
-                            <img src="https://dmctruong.000webhostapp.com/images/gallery/11.png" style="width:100%" onclick="openModal();currentSlide(11)" class="modal_imgPreview cursor" onclick="currentSlide(11)" alt="Yggdrasil by DMCT">
-                        </div>
-                        <div id="gallerydisplay_col">
-                            <img src="https://dmctruong.000webhostapp.com/images/gallery/3.png" style="width:100%" onclick="openModal();currentSlide(3)" class="modal_imgPreview cursor" onclick="currentSlide(3)" alt="Lotusanthymum by DMCT">
-                            <img src="https://dmctruong.000webhostapp.com/images/gallery/6.png" style="width:100%" onclick="openModal();currentSlide(6)" class="modal_imgPreview cursor" onclick="currentSlide(6)" alt="Bloom by DMCT">
-                            <img src="https://dmctruong.000webhostapp.com/images/gallery/9.png" style="width:100%" onclick="openModal();currentSlide(9)" class="modal_imgPreview cursor" onclick="currentSlide(9)" alt="The Vase: Parody by DMCT">
-                            <img src="https://dmctruong.000webhostapp.com/images/gallery/12.png" style="width:100%" onclick="openModal();currentSlide(12)" class="modal_imgPreview cursor" onclick="currentSlide(12)" alt="The Bedroom at Arles: Van Gogh Parody by DMCT">
-                            <img src="https://dmctruong.000webhostapp.com/images/gallery/13.png" style="width:100%" onclick="openModal();currentSlide(13)" class="modal_imgPreview cursor" onclick="currentSlide(13)" alt="In Bloom by DMCT">
-                        </div>                   
-                    </div>
+					<!-- Image Preview -->
+					<div id="display_container">
+						<div style="padding-top:30px; padding-bottom:50px; width:940px; white-space:nowrap; overflow:auto;">
+							<div style="display:inline-block; height: 100px; overflow:hidden; vertical-align: top;"><img src="https://dmctruong.000webhostapp.com/images/gallery/1.png" class="img_preview opacity hover-opacity-off" style="width: 150px;" onclick="openModal();currentSlide(1)" alt="Marketplace by DMCT"></div>					
+							<div style="display:inline-block; height: 100px; overflow:hidden; vertical-align: top;"><img src="https://dmctruong.000webhostapp.com/images/gallery/2.png" class="img_preview opacity hover-opacity-off" style="width: 150px;" onclick="openModal();currentSlide(2)" alt="Flying Free by DMCT"></div>
+							<div style="display:inline-block; height: 100px; overflow:hidden; vertical-align: top;"><img src="https://dmctruong.000webhostapp.com/images/gallery/3.png" class="img_preview opacity hover-opacity-off" style="width: 150px;" onclick="openModal();currentSlide(3)" alt="Lotusanthymum by DMCT"></div>
+							<div style="display:inline-block; height: 100px; overflow:hidden; vertical-align: top;"><img src="https://dmctruong.000webhostapp.com/images/gallery/4.png" class="img_preview opacity hover-opacity-off" style="width: 150px;" onclick="openModal();currentSlide(4)" alt="American Gothic: Grant Wood Parody by DMCT"></div>
+							<div style="display:inline-block; height: 100px; overflow:hidden; vertical-align: top;"><img src="https://dmctruong.000webhostapp.com/images/gallery/5.png" class="img_preview opacity hover-opacity-off" style="width: 150px;" onclick="openModal();currentSlide(5)" alt="Green Country by DMCT"></div>
+							<div style="display:inline-block; height: 100px; overflow:hidden; vertical-align: top;"><img src="https://dmctruong.000webhostapp.com/images/gallery/6.png" class="img_preview opacity hover-opacity-off" style="width: 150px;" onclick="openModal();currentSlide(6)" alt="Bloom by DMCT"></div>
+							<div style="display:inline-block; height: 100px; overflow:hidden; vertical-align: top;"><img src="https://dmctruong.000webhostapp.com/images/gallery/7.png" class="img_preview opacity hover-opacity-off" style="width: 150px;" onclick="openModal();currentSlide(7)" alt="Enchanted Forest by DMCT"></div>
+							<div style="display:inline-block; height: 100px; overflow:hidden; vertical-align: top;"><img src="https://dmctruong.000webhostapp.com/images/gallery/8.png" class="img_preview opacity hover-opacity-off" style="width: 150px;" onclick="openModal();currentSlide(8)" alt="Vase by DMCT"></div>
+							<div style="display:inline-block; height: 100px; overflow:hidden; vertical-align: top;"><img src="https://dmctruong.000webhostapp.com/images/gallery/9.png" class="img_preview opacity hover-opacity-off" style="width: 150px;" onclick="openModal();currentSlide(9)" alt="The Vase: Parody by DMCT"></div>
+							<div style="display:inline-block; height: 100px; overflow:hidden; vertical-align: top;"><img src="https://dmctruong.000webhostapp.com/images/gallery/10.png" class="img_preview opacity hover-opacity-off" style="width: 150px;" onclick="openModal();currentSlide(10)" alt="In Bloom by DMCT"></div>
+							<div style="display:inline-block; height: 100px; overflow:hidden; vertical-align: top;"><img src="https://dmctruong.000webhostapp.com/images/gallery/11.png" class="img_preview opacity hover-opacity-off" style="width: 150px;" onclick="openModal();currentSlide(11)" alt="Yggdrasil by DMCT"></div>
+							<div style="display:inline-block; height: 100px; overflow:hidden; vertical-align: top;"><img src="https://dmctruong.000webhostapp.com/images/gallery/12.png" class="img_preview opacity hover-opacity-off" style="width: 150px;" onclick="openModal();currentSlide(12)" alt="The Bedroom at Arles: Van Gogh Parody by DMCT"></div>
+							<div style="display:inline-block; height: 100px; overflow:hidden; vertical-align: top;"><img src="https://dmctruong.000webhostapp.com/images/gallery/13.png" class="img_preview opacity hover-opacity-off" style="width: 150px;" onclick="openModal();currentSlide(13)" alt="In Bloom by DMCT"></div>
+						</div>
+					</div>
                 </div>
             </div> <!-- End of Modal -->
         </div> <!-- End of Content -->

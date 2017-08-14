@@ -1,7 +1,7 @@
 # Blog of Miscellaneous Projects
 <pre>
 Created by:             DMCTruong
-Date of Last Update:    August 11, 2017
+Date of Last Update:    August 14, 2017
 Version:                Projects Blog Version 2
 Website Link:		<a href="https://dmctruong.github.io/index.html">https://dmctruong.github.io/index.html</a>
 </pre>
@@ -22,5 +22,5 @@ The Blog of Miscellaneous Projects is a website or blog that showcases some of t
 |3. Add a Java try-me |
 |4. Update Contact page |
 |5. Add a "please wait" message to gallery page |
-|6. Fix the way previews are displayed in gallery modal |
+|6. Add a page for Discord Bot project |
 |7. Redo the css for each project and work on Project Blog Version 3|

@@ -63,8 +63,9 @@ img { margin: 0; padding: 0; vertical-align: middle; line-height: normal; border
 #container #gallery_col { display: block; width: 290px; float: left; background-color: #ffffff; }
 #display_container { display: block; width: 1200px; }
 #display_container #gallerydisplay_col { display: block; width: 26%; padding-bottom: 100px; float:left; background-color: #000000; }
+#display_container #gallerydisplay_row { display: block; padding-bottom: 100px; float:left; background-color: #000000; }
 .caption-container { padding: 2px 16px; background-color: #000000; text-align: center; color: #ffffff; }
-.modal { display: none; position: absolute; overflow: hidden; width: 100%; left: 0; top: 0; z-index: 1; padding-top: 100px; background-color: #000000; }
+.modal { display: none; position: absolute; overflow: hidden; width: 100%; height: 100%; left: 0; top: 0; z-index: 1; padding-top: 100px; background-color: #000000; }
 .modal-content { position: relative; margin: auto; padding: 0; width: 90%; max-width: 1200px; background-color: #000000; }
 
 /* Default: Modal Buttons */
