@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <script src="scripts/w3.js"></script>
+        <script src="scripts/animations.js"></script>
+    <div w3-include-html="stylesheets.html"></div>
+</head>
+
+<body onload="loadIn()">
+    <div id="page_loader"></div>
+    <div class="shrink background_shadow" id="hideDiv">
+        <!-- Navigation and Header -->
+        <div w3-include-html="navigation.html"></div>
+        <!-- End of Navigation and Header -->
+
+
+        <!-- Content -->
+        <div class="wrapper">
+            <h1>Discord Bot</h1>
+			<h1>Description</h1>
+			<h1>Installation</h1>
+			<h1>Usage</h1>
+			<h1>Commands</h1>
+			<h1>Support</h1>
+			<h1>Contribution</h1>
+        </div>
+        <!-- End of Content -->
+
+
+        <!--  Footer -->
+        <div w3-include-html="footer.html"></div> 
+        <script>w3.includeHTML();</script>
+        <!-- End of Footer -->
+    </div>
+</body>
+</html>

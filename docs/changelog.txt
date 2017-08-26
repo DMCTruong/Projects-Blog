@@ -1,10 +1,15 @@
 ##########################################################################################
 # Program Name	:	Website of Miscellaneous Projects
 # Author		:	DMCTruong
-# Last Updated	:	August 14, 2017
+# Last Updated	:	August 26, 2017
 # License		:	MIT
-# Description	:	A website showcasing selected projects and techinology implementations.             
+# Description	:	A website showcasing selected projects and other implementations.             
 ##########################################################################################
+
+08/26/17
+- Updated Readme
+- Clarified info in tools.html
+- Changed tools image in index.html
 
 08/14/17
 - Redid the Art Gallery's Modal Preview.
