@@ -8,8 +8,7 @@
 
 
 <body onload="loadIn()">
-    <div id="page_loader"></div>
-    <div class="shrink background_shadow" id="hideDiv">
+    <div class="shrink background_shadow">
         <!-- Navigation and Header -->
         <div w3-include-html="navigation.html"></div>
         <!-- End of Navigation and Header -->
@@ -21,8 +20,6 @@
             <div class="warning"> 
                 <p align="center">Notice! This web site is still under construction so some pages may be incomplete.</p> 
             </div>
-            
-            
             <!-- Center --> 
             <div class="clear" id="container"> 
                 <!--Slide Show -->
@@ -34,34 +31,28 @@
                     </div>
                     <script>carousel();</script>
                 </section>
-                
-                
                 <!-- About -->
                 <div id="content" style="width: 860px;">
                     <section class="index_grad clear">
-                            <h4>Hello, welcome to my web site.</h4>
-                            <p align="center">This is a web site of miscellaneous.projects It was created as an intellectual challenge for myself as one of my main goals in creating this website was to use only Notepad++. Feel free to browse around, maybe one of the projects may turn out to be useful for you!</p>	
+                        <h4>Hello, welcome to my web site.</h4>
+                        <p align="center">This is a web site of miscellaneous.projects It was created as an intellectual challenge for myself as one of my main goals in creating this website was to use only Notepad++. Feel free to browse around, maybe one of the projects may turn out to be useful for you!</p>	
                     </section>
                     <div align="center"><img src="https://dmctruong.000webhostapp.com/images/logo.png" width="100px" height="100px"></div>
-                    
-                    
                     <!-- Categories -->
                     <section id="projects">
                         <h2 class="spacing_large clear">About the Site Categories</h2>
                         <ul>
-                            
                             <li> <!-- Class Projects Category -->
                                 <article class="clear">
                                     <figure><img src="https://dmctruong.000webhostapp.com/images/index_projects.png" class="rectangle_image"  alt="">
                                         <figcaption>
                                             <h2>Class Projects</h2>
-                                            <p>This category showcases a few projects that were created in class. These projects were built based on the requirements given under the time limit of two weeks. The projects vary from implementing a Naive Bayes Classifier to a simple Socket Stream server/client program written in C.</p>
+                                            <p>This category showcases a few projects that were created in class. These projects were built based on the requirements given under the time limit of two weeks. The projects vary from a simple Socket Stream server and client to a Naive Bayes Classifier.</p>
                                             <footer class="read_more"><a href="projects.html">Read More &raquo;</a></footer>
                                         </figcaption>
                                     </figure>
                                 </article>                               
-                            </li>
-                            
+                            </li>   
                             <li> <!-- Computer Graphics Category -->
                                 <article class="clear">
                                     <figure><img src="https://dmctruong.000webhostapp.com/images/index_graphics.png" class="rectangle_image" alt="">
@@ -73,7 +64,6 @@
                                     </figure>
                                 </article>                               
                             </li>
-                            
                             <li> <!-- Tools Category -->
                                 <article class="index_last clear">
                                     <figure><img src="https://dmctruong.000webhostapp.com/images/index_tools.png" class="rectangle_image" alt="">
@@ -91,7 +81,7 @@
             </div> <!-- End of Center -->
         </div> <!-- End of Content -->
 
-        
+
         <!-- Footer -->
         <div w3-include-html="footer.html"></div> 
         <script>w3.includeHTML();</script>

@@ -1,7 +1,7 @@
 # Blog of Miscellaneous Projects
 <pre>
 Created by:             DMCTruong
-Date of Last Update:    August 27, 2017
+Date of Last Update:    August 29, 2017
 Version:                Projects Blog Version 2
 Website Link:		<a href="https://dmctruong.github.io/index.html">https://dmctruong.github.io/index.html</a>
 </pre>
@@ -23,4 +23,4 @@ The Blog of Miscellaneous Projects is a website that showcases some of the proje
 |1. Add a page about the website's background |
 |2. Add a Java try-me |
 |3. Update Contact page |
-|4. Redo the css for each project and work on Project Blog Version 3|
+|4. Work on Project Blog Version 3|

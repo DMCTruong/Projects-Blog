@@ -1,10 +1,13 @@
-##########################################################################################
+#############################################################
 # Program Name	:	Website of Miscellaneous Projects
 # Author		:	DMCTruong
-# Last Updated	:	August 27, 2017
+# Last Updated	:	August 29, 2017
 # License		:	MIT
 # Description	:	A website showcasing selected projects and other implementations.             
-##########################################################################################
+#############################################################
+
+08/29/17
+- Removed Page loader from all except Graphics pages (The only pages that needed it.)
 
 08/27/17
 - Updated info to reflect changes to Socket Stream Server/Client Project
