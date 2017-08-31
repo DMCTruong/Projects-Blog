@@ -1,10 +1,14 @@
 #############################################################
 # Program Name	:	Website of Miscellaneous Projects
 # Author		:	DMCTruong
-# Last Updated	:	August 29, 2017
+# Last Updated	:	August 31, 2017
 # License		:	MIT
 # Description	:	A website showcasing selected projects and other implementations.             
 #############################################################
+
+08/31/17
+- Updated X3dom project a bit.
+- Added information on graphics_gallery.html
 
 08/29/17
 - Removed Page loader from all except Graphics pages (The only pages that needed it.)

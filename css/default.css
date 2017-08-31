@@ -1,8 +1,8 @@
 /* 
-Site Name : 	A Miscellaneous Projects Blog
-Author :	Diane Truong
-Date :          July 10, 2017
-File :            custom.css
+Site Name   : A Miscellaneous Projects Blog
+Author      : Diane Truong
+Date        : August 31, 2017
+File        : custom.css
 Description : Contains custom styles that differs or overrides the default css
 */
 
@@ -72,9 +72,9 @@ img { margin: 0; padding: 0; vertical-align: middle; line-height: normal; border
 .close_button { position: absolute; right: 25px; top: 10px; color: #ffffff; font-size: 35px; font-weight: bold; }
 .close_button:hover, .close_button:focus { color: #999; text-decoration: none; cursor: pointer; }
 .cursor { cursor: pointer}
-.prev_button { position: absolute; width: auto; top: 50%; margin-top: -50px; padding: 16px; background: #000000; color: #ffffff; font-size: 40px; font-weight: bold; border-radius: 0 3px 3px 0; transition: 0.6s ease; cursor: pointer; user-select: none; -webkit-user-select: none; }
+.prev_button { position: absolute; width: auto; top: 200px; margin-top: -50px; padding: 16px; background: #000000; color: #ffffff; font-size: 40px; font-weight: bold; border-radius: 0 3px 3px 0; transition: 0.6s ease; cursor: pointer; user-select: none; -webkit-user-select: none; }
 .prev_button:hover { color: #FF9900; }
-.next_button { position: absolute; width: auto; right: 0; top: 50%; margin-top: -50px; padding: 16px; background: #000000; color: #ffffff; font-size: 40px; font-weight: bold; border-radius: 3px 0 0 3px; transition: 0.6s ease; cursor: pointer; user-select: none; -webkit-user-select: none; }
+.next_button { position: absolute; width: auto; right: 0; top: 200px; margin-top: -50px; padding: 16px; background: #000000; color: #ffffff; font-size: 40px; font-weight: bold; border-radius: 3px 0 0 3px; transition: 0.6s ease; cursor: pointer; user-select: none; -webkit-user-select: none; }
 .next_button:hover { color: #FF9900; }
 
 /* Default: Modal Text */
