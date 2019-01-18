@@ -1,7 +1,7 @@
 # Blog of Miscellaneous Projects
 <pre>
 Created by:             DMCTruong
-Date of Last Update:    August 31, 2017
+Date of Last Update:    January 18, 2019
 Version:                Projects Blog Version 2
 Website Link:		<a href="https://dmctruong.github.io/index.html">https://dmctruong.github.io/index.html</a>
 </pre>
